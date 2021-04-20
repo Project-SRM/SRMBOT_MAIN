@@ -10,20 +10,27 @@ import Programs from "../components/programs/programs";
 import ApplicationQues from "../components/applicationQues/applicationQues";
 import Eligibility from "../components/eligibility/eligibility";
 
+
 const botName = "SRMBOT";
 const config = {
+  
   botName: botName,
   lang: "no",
+  customComponents: {
+
+    header: () => botName,
+  
+  },
   customStyles: {
     botMessageBox: {
       backgroundColor: "#063a7e",
       
     },
     chatButton: {
-      backgroundColor: "#5ccc9d",
+      backgroundColor: "#063a7e",
     },
   },
-  initialMessages: [createChatBotMessage(`Hi there ! How can I Help you ?`,{ widget :"options"})],
+  initialMessages: [createChatBotMessage(`Hi there ! How can I help you ?`,{ widget :"options"})],
   widgets :
   [
     {

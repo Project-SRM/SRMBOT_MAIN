@@ -31,7 +31,7 @@ const applicationQues = (props) => {
   ];
 
   const buttonsMarkup = applicationQues.map((admission) => (
-    <button key={admission.id} onClick={admission.handler} className="option-button">
+    <button key={admission.id} onClick={admission.handler} className="option-admission-button">
       {admission.text}
     </button>
   ));

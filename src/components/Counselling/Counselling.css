@@ -5,9 +5,29 @@
   
   .option-button {
     margin: 5px;
-    border-radius: 25px;
-    padding: 8px;
+    border-radius: 13px;
+    padding: 5px;
     border-color:#063a7e;
     background: transparent;
     text-align: center;
+  }
+  
+  .option-counselling-button {
+    margin: 5px;
+    border-radius: 13px;
+    padding: 5px;
+    border-color:#1258b4;
+    background: transparent;
+    text-align: center;
+    font-size: small;
+    width:70%;
+  }
+
+
+  .option-counselling-button:focus, textarea:focus, input:focus{
+    outline: none;
+    
+  }
+  .option-counselling-button:hover {
+    background-color: rgb(241, 241, 237);
   }

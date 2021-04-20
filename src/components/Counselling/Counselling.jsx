@@ -40,7 +40,7 @@ const Counselling = (props) => {
   ];
 
   const buttonsMarkup = Counselling.map((coun) => (
-    <button key={coun.id} onClick={coun.handler} className="option-button">
+    <button key={coun.id} onClick={coun.handler} className="option-counselling-button">
       {coun.text}
     </button>
   ));

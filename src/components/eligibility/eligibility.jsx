@@ -17,7 +17,7 @@ const eligibility = (props) => {
   ];
 
   const buttonsMarkup = eligibility.map((admission) => (
-    <button key={admission.id} onClick={admission.handler} className="option-button">
+    <button key={admission.id} onClick={admission.handler} className="option-eligibility-button">
       {admission.text}
     </button>
   ));

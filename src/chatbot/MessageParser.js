@@ -7,23 +7,23 @@ class MessageParser {
     parse(message) {
       console.log(message);
       const lowercase= message.toLowerCase();
-      if(lowercase.includes("hello") || lowercase.includes("hi") || lowercase.includes("hey"))
+      if(lowercase.includes("hello") || lowercase.includes("hi") || lowercase.includes("hey")|| lowercase.includes("hy"))
       {
         this.actionProvider.greet();
       }
-      if(lowercase.includes("about us") || lowercase.includes("about srm") )
+      if(lowercase.includes("about us") || lowercase.includes("about srm")|| lowercase.includes("information")||lowercase.includes("info")||lowercase.includes("know about srm") )
       {
         this.actionProvider.handleaboutus();
       }
-      if(lowercase.includes("apply") )
+      if(lowercase.includes("apply")||lowercase.includes("put in an application") )
       {
         this.actionProvider.apply();
       }
-      if(lowercase.includes("fee") || lowercase.includes("fees"))
+      if(lowercase.includes("fee") || lowercase.includes("fees")||lowercase.includes("payment")||lowercase.includes("allowance needed")||lowercase.includes("charges")||lowercase.includes("figure")||lowercase.includes("price")||lowercase.includes("financial")||lowercase.includes("grant"))
       {
         this.actionProvider.fees();
       }
-      if(lowercase.includes("admission") )
+      if(lowercase.includes("admission")||lowercase.includes("admittance")||lowercase.includes("entrance")||lowercase.includes("adm") )
       {
         this.actionProvider.handleadmissions();
       }
@@ -31,11 +31,11 @@ class MessageParser {
       {
         this.actionProvider.handlecounselling();
       }
-      if(lowercase.includes("application") )
+      if(lowercase.includes("application")||lowercase.includes("form") )
       {
         this.actionProvider.handleadmissions();
       }
-      if(lowercase.includes("eligibility criteria") )
+      if(lowercase.includes("eligibility criteria")||lowercase.includes("capability")||lowercase.includes("admissibility")||lowercase.includes("qualities")||lowercase.includes("selection needs")||lowercase.includes("requirement")||lowercase.includes("standard")||lowercase.includes("std")||lowercase.includes("guideline")||lowercase.includes("basis") )
       {
         this.actionProvider.el1();
       }
@@ -147,10 +147,10 @@ class MessageParser {
       {
         this.actionProvider.postgrad();
       }
-      else
-      {
-        this.actionProvider.elsemessage();
-      }
+      // else
+      // {
+      //   this.actionProvider.elsemessage();
+      // }
       
       
 

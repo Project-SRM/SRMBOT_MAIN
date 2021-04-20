@@ -2,12 +2,44 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
+  /* .option-button {
+    margin: 5px;
+    border-radius: 13px;
+    padding: 5px;
+    border-color: #1258b4;
+    background: transparent;
+    text-align: center;
+    box-sizing :auto;
+    font-size: 0.85rem;
+    height: 35px;
+    /* width:70%; */
+    
+  /* } */
   .option-button {
     margin: 5px;
-    border-radius: 25px;
-    padding: 8px;
+    border-radius: 13px;
+    padding: 5px;
     border-color:#063a7e;
     background: transparent;
     text-align: center;
+  }
+  
+  .option-admission-button {
+    margin: 5px;
+    border-radius: 13px;
+    padding: 5px;
+    border-color:#1258b4;
+    background: transparent;
+    text-align: center;
+    font-size: small;
+    width:70%;
+  }
+
+  .option-admission-button:focus, textarea:focus, input:focus{
+    outline: none;
+    
+  }
+  .option-admission-button:hover {
+    background-color: rgb(241, 241, 237);
   }
