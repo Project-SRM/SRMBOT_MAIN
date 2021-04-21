@@ -9,6 +9,7 @@ import Graduate from "../components/graduate/graduate";
 import Programs from "../components/programs/programs";
 import ApplicationQues from "../components/applicationQues/applicationQues";
 import Eligibility from "../components/eligibility/eligibility";
+import Srmjee from "../components/srmjee/srmjee";
 
 
 const botName = "SRMBOT";
@@ -81,6 +82,11 @@ const config = {
     {
       widgetName: "eligibility",
       widgetFunc: (props) => <Eligibility {...props} />,
+     
+    },
+    {
+      widgetName: "srmjee",
+      widgetFunc: (props) => <Srmjee {...props} />,
      
     },
     

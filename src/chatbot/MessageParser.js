@@ -147,6 +147,10 @@ class MessageParser {
       {
         this.actionProvider.postgrad();
       }
+      if(lowercase.includes("contact") )
+      {
+        this.actionProvider.contact();
+      }
       // else
       // {
       //   this.actionProvider.elsemessage();

@@ -27,6 +27,15 @@ class ActionProvider {
       );
       this.addMessageToState(message);
     };
+    srmjee = () => {
+      const message = this.createChatBotMessage(
+        "Do you want to know about :",
+        {
+          widget: "srmjee",
+        }
+      );
+      this.addMessageToState(message);
+    };
     handleeligibility = () => {
       const message = this.createChatBotMessage(
         "Do you want to know about :",
@@ -141,6 +150,18 @@ class ActionProvider {
         
       );
       this.addMessageToState(message);
+    };
+    syllabus = () => {
+      window.open("https://webstor.srmist.edu.in/web_assets/downloads/2021/syllabus-for-srmjee-2021.pdf");
+    };
+    test = () => {
+      window.open("https://webstor.srmist.edu.in/web_assets/downloads/2021/test-cities-srmjeee-srmjeeh-2021.pdf");
+    };
+    dates = () => {
+      window.open("https://www.srmist.edu.in/admission-india/engineering/important-dates");
+    };
+    contact = () => {
+      window.open("https://www.srmist.edu.in/contact-us");
     };
     loan = () => {
       window.open("https://www.srmist.edu.in/admission-india/engineering/fees/loans");
