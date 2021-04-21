@@ -169,6 +169,7 @@ input {
   height: 00px !important;
   color: #fff !important;
  
+ 
   /* border-radius: 50%; */
   /* font-size: 1.2rem; */
   /* margin-right: 12.5px; */
@@ -178,8 +179,14 @@ input {
   /* align-items: center; */
  
 }
+.react-chatbot-kit-user-chat-message-container {
+  display: flex;
+  margin: 15px 0;
+  justify-content: flex-end;
+  /* background-color: #f1f1f157; */
+}
 .react-chatbot-kit-user-chat-message {
-  background-color: #f1f1f186 !important;
+  background-color: #e6e3e3 !important;
   padding: 10px !important;
   border-radius: 20px !important;
   border-top-right-radius: 00px !important;
