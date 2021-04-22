@@ -18,18 +18,18 @@ import Hostelfees from "../components/hostelfees/hostelfees";
 
 const botName = "SRMBOT";
 const config = {
-  
+
   botName: botName,
   lang: "no",
   customComponents: {
 
     header: () => botName,
-  
+
   },
   customStyles: {
     botMessageBox: {
       backgroundColor: "#063a7e",
-      
+
     },
     chatButton: {
       backgroundColor: "#063a7e",
@@ -41,79 +41,79 @@ const config = {
     {
       widgetName: "options",
       widgetFunc: (props) => <Options {...props} />,
-     
+
     },
     {
       widgetName: "admissions",
       widgetFunc: (props) => <Admissions {...props} />,
-     
+
     },
     {
       widgetName: "aboutus",
       widgetFunc: (props) => <AboutUs {...props} />,
-     
+
     },
     {
       widgetName: "fees",
       widgetFunc: (props) => <Fees {...props} />,
-     
+
     },
     {
       widgetName: "AdmissionIndia",
       widgetFunc: (props) => <AdmissionIndia {...props} />,
-     
+
     },
     {
       widgetName: "Counselling",
       widgetFunc: (props) => <Counselling {...props} />,
-     
+
     },
     {
       widgetName: "graduate",
       widgetFunc: (props) => <Graduate {...props} />,
-     
+
     },
     {
       widgetName: "programs",
       widgetFunc: (props) => <Programs {...props} />,
-     
+
     },
     {
       widgetName: "applicationQues",
       widgetFunc: (props) => <ApplicationQues {...props} />,
-     
+
     },
     {
       widgetName: "eligibility",
       widgetFunc: (props) => <Eligibility {...props} />,
-     
+
     },
     {
       widgetName: "srmjee",
       widgetFunc: (props) => <Srmjee {...props} />,
-     
+
     },
     {
       widgetName: "hostelQues",
       widgetFunc: (props) => <HostelQues {...props} />,
-     
+
     },
     {
       widgetName: "transportfees",
       widgetFunc: (props) => <Transportfees {...props} />,
-     
+
     },
     {
       widgetName: "hostelfees",
       widgetFunc: (props) => <Hostelfees {...props} />,
-     
+
     },
     {
       widgetName: "tutionfees",
       widgetFunc: (props) => <Tutionfees {...props} />,
-     
+
     },
-    
+
   ]
 }
 

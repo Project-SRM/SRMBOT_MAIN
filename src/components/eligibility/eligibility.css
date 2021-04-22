@@ -24,8 +24,8 @@
   }
 
 
-  .option-eligibilty-button:focus, textarea:focus, input:focus{
-    outline: none;
+  .option-eligibility-button:focus, textarea:focus, input:focus{
+    outline: none ;
     
   }
   .option-eligibility-button:hover {

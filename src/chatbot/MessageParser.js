@@ -3,7 +3,7 @@ class MessageParser {
       this.actionProvider = actionProvider;
       this.state = state;
     }
-  
+
     parse(message) {
       console.log(message);
       const lowercase= message.toLowerCase();
@@ -159,18 +159,18 @@ class MessageParser {
       {
         this.actionProvider.blankmessage();
       }
-      
-      else 
+
+      else
       {
         this.actionProvider.elsemessage();
       }
-      
-      
 
-     
-     
-      
+
+
+
+
+
     }
   }
-  
+
   export default MessageParser;
