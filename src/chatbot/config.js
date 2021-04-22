@@ -9,6 +9,11 @@ import Graduate from "../components/graduate/graduate";
 import Programs from "../components/programs/programs";
 import ApplicationQues from "../components/applicationQues/applicationQues";
 import Eligibility from "../components/eligibility/eligibility";
+import Srmjee from "../components/srmjee/srmjee";
+import HostelQues from "../components/hostelQues/hostelQues";
+import Tutionfees from "../components/tutionfees/tutionfees";
+import Transportfees from "../components/transportfees/transportfees";
+import Hostelfees from "../components/hostelfees/hostelfees";
 
 
 const botName = "SRMBOT";
@@ -81,6 +86,31 @@ const config = {
     {
       widgetName: "eligibility",
       widgetFunc: (props) => <Eligibility {...props} />,
+     
+    },
+    {
+      widgetName: "srmjee",
+      widgetFunc: (props) => <Srmjee {...props} />,
+     
+    },
+    {
+      widgetName: "hostelQues",
+      widgetFunc: (props) => <HostelQues {...props} />,
+     
+    },
+    {
+      widgetName: "transportfees",
+      widgetFunc: (props) => <Transportfees {...props} />,
+     
+    },
+    {
+      widgetName: "hostelfees",
+      widgetFunc: (props) => <Hostelfees {...props} />,
+     
+    },
+    {
+      widgetName: "tutionfees",
+      widgetFunc: (props) => <Tutionfees {...props} />,
      
     },
     

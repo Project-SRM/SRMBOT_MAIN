@@ -27,6 +27,15 @@ class ActionProvider {
       );
       this.addMessageToState(message);
     };
+    srmjee = () => {
+      const message = this.createChatBotMessage(
+        "Do you want to know about :",
+        {
+          widget: "srmjee",
+        }
+      );
+      this.addMessageToState(message);
+    };
     handleeligibility = () => {
       const message = this.createChatBotMessage(
         "Do you want to know about :",
@@ -36,6 +45,43 @@ class ActionProvider {
       );
       this.addMessageToState(message);
     };
+    tutionfeesmessage = () => {
+      const message = this.createChatBotMessage(
+      "FEES STRUCTURE UG Programs KTR\n\nBio-Engineering -2.5 lakhs\nNanotechnology-3.75 lakhs\nCivil Engineering -2.5lakhs\nComputer Science Engineering- 2.5-3.5 lakhs\n Electrical and Electronics Engineering - 2.5 lakhs\nAerospace Engineering - 3.75 lakhs\nMechanical Engineering - 2.5 lakhs\nArchitechture - 2.75 lakhs\nInterior Designing-1.5 lakhs  ",
+      {
+        widget: "tutionfees",
+      }
+      );
+      this.addMessageToState(message);
+    }
+    transportfeesmessage = () => {
+      const message = this.createChatBotMessage(
+        "Air conditioned college buses will be operated from limited parts of Chennai city.\nOnline Bus Booking Mode is also available (Except First Year)\nBus Fee Rs. 50,000/- Demand Draft in favour of SRMIST payable at Chennai\nThe fees will be accepted subject to the availability of seats.\nBus fees once paid will not be refunded / adjusted under any circumstances.",
+        {
+          widget: "transportfees",
+        }
+      );
+      this.addMessageToState(message);
+    }
+    hostelfeesmessage = () => {
+      const message = this.createChatBotMessage(
+        "Boy's Hostel AC 2,18,000-2,28,000\n Boy's Hostel Non-AC 92,000-1,33,000\n Girl's Hostel AC 2,13,000-2,38,000\n Girl's Hostel Non-AC  1,02,500-1,43,000",
+        {
+          widget: "hostelfees",
+        }
+      );
+      this.addMessageToState(message);
+    }
+    // hostelfeesmessage = () => {
+    //   const message = this.createChatBotMessage(
+    //     "FEE STRUCTURE GIRL'S HOSTEL\n1.) AC-with attached Washroom 2 Sharing (Sister Nivedita (M) Block) - 2,38,000\n2.) AC-with attached Washroom 2 & 3 Sharing (Kalpana Chawla) - 2,13,000\n3.) Non AC-with attached Washroom 2 Sharing (Sister Nivedita (M) Block) - 1,43,000\n4.) Non AC – with attached Washroom 3 Sharing (Meenakshi) - 1,14,500\n5.) Non AC – with common Washroom 6 Sharing (Senbagam) - 1,02,500\n\nLAUNDRY FEES\n1.) Rs.6000/- for BOYS is Optional\n2.) Rs.7000/- for GIRLS is Optional.\n\nFor any queries related to Hostels and Hostel Bookings, please contact\nEmail ID: hostel.helpdesk.ktr@srmist.edu.in",
+    //     {
+    //       widget: "hostelfees",
+    //     }
+    //   );
+    //   this.addMessageToState(message);
+    // }
+    
     el1 = () => {
       const message = this.createChatBotMessage(
         " Eligibility criteria is minimum aggregate of 60% in PCM/PCB for KTR, Ramapuram and Vadapalani. For NCR campus its 55%.",
@@ -64,6 +110,47 @@ class ActionProvider {
       );
       this.addMessageToState(message);
     };
+    hostelQues1 = () => {
+      const message = this.createChatBotMessage(
+        "The rooms come equipped with a table, chair, cot and a cupboard for each student. All the rooms are triple sharing with 2 fans and sufficient sockets. A big sized mirror is provided in each room.",
+        
+      );
+      this.addMessageToState(message);
+    };
+    hostelQues2 = () => {
+      const message = this.createChatBotMessage(
+        "The bed and bathroom accessories, such as mattresses, pillows, bed covers, buckets, mugs etc., need to be purchased by the students. The students can purchase the same at the University shops within the campus.",
+        
+      );
+      this.addMessageToState(message);
+    };
+    hostelQues3 = () => {
+      const message = this.createChatBotMessage(
+        "Each hostel block has a R.O. Plant and Solar Heater. Hence pure drinking water and hot water for bath are available. The hostels are Wi-Fi enabled.",
+        
+      );
+      this.addMessageToState(message);
+    };
+    hostelQues4 = () => {
+      const message = this.createChatBotMessage(
+        "There are separate ‘Gymnasiums’ for Boys hostel and Girls hostel. In addition to the above, sports materials such as Cricket Bats, Shuttlecocks, Throw balls, Volley balls and Indoor games are available in each block. Movies are arranged periodically at the common area of the hostels (or) University open auditorium. Student activity centre and incubation centers are available in the University Complex.",
+        
+      );
+      this.addMessageToState(message);
+    };
+    hostelQues5 = () => {
+      const message = this.createChatBotMessage(
+        "The Hostel Mess is run by the management. Menu will be displayed on the notice board. Changes to the menu can be made through the Mess Committee. In addition to the Mess service, Canteens and Food courts are also available for students’ use.");
+      this.addMessageToState(message);
+    };
+    hostelQues6 = () => {
+      const message = this.createChatBotMessage(
+        "SRM Hostel provides laundry and dry cleaning service to the hostellers. Equipped with state-of-the art machinery, every kind of cloth and fabric can be serviced.",
+        
+      );
+      this.addMessageToState(message);
+    };
+
     appli1 = () => {
       const message = this.createChatBotMessage(
         "It is already released Candidates can apply online with e-payment or DD payment.You must ensure correctness of data before final submission. In case of any error, from your dashboard and submit the details of the corrections to be done. We shall effect the corrections and inform the same."
@@ -72,6 +159,7 @@ class ActionProvider {
       this.addMessageToState(message);
     };
     appli2 = () => {
+      
       const message = this.createChatBotMessage(
         "The fee structure is available in our web portal. Click here for details http://www.srmist.edu.in/admission-india/fee-details/engineering_and_technologyFees structure is same as for the first year B.Tech students . Admission will be offered depending on the availability of seats. Interested candidates can contact us",
         
@@ -135,12 +223,31 @@ class ActionProvider {
       );
       this.addMessageToState(message);
     };
+    blankmessage = () => {
+      const message = this.createChatBotMessage(
+        "Please type something",
+        
+      );
+      this.addMessageToState(message);
+    };
     elsemessage = () => {
       const message = this.createChatBotMessage(
         "Could you eleborate on that ?",
         
       );
       this.addMessageToState(message);
+    };
+    syllabus = () => {
+      window.open("https://webstor.srmist.edu.in/web_assets/downloads/2021/syllabus-for-srmjee-2021.pdf");
+    };
+    test = () => {
+      window.open("https://webstor.srmist.edu.in/web_assets/downloads/2021/test-cities-srmjeee-srmjeeh-2021.pdf");
+    };
+    dates = () => {
+      window.open("https://www.srmist.edu.in/admission-india/engineering/important-dates");
+    };
+    contact = () => {
+      window.open("https://www.srmist.edu.in/contact-us");
     };
     loan = () => {
       window.open("https://www.srmist.edu.in/admission-india/engineering/fees/loans");
@@ -245,7 +352,13 @@ class ActionProvider {
       window.open("https://www.srmist.edu.in/aboutus/srm-university-where-you-have-freedom-take-wings");
     };
     hostel = () => {
-      window.open("https://www.srmist.edu.in/sample-faqs-hostel");
+      const message = this.createChatBotMessage(
+        "What do you want to know about?",
+        {
+          widget: "hostelQues",
+        }
+      );
+      this.addMessageToState(message);
     };
     
     apply = () => {

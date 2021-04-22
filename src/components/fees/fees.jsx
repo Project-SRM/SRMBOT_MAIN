@@ -6,17 +6,17 @@ const fees = (props) => {
   const fees = [
     {
       text: "Tution Fees",
-      handler: props.actionProvider.tutionfees,
+      handler: props.actionProvider.tutionfeesmessage,
       id: 1,
     },
     {
       text: "Hostel Fees",
-      handler: props.actionProvider.hostelfees,
+      handler: props.actionProvider.hostelfeesmessage,
       id: 2,
     },
     {
       text: "Transport Fees",
-      handler: props.actionProvider.transportfees,
+      handler: props.actionProvider.transportfeesmessage,
       id: 3,
     },
     {

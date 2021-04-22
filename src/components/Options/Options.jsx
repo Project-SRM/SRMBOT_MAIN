@@ -23,9 +23,13 @@ const Options = (props) => {
      handler: props.actionProvider.handleaboutus,
      id: 7},
     
-    { text: "Apply Now", 
-    handler:props.actionProvider.apply,
+    { text: "SRMJEE", 
+    handler:props.actionProvider.srmjee,
      id: 8
+    },
+    { text: "Contact Us", 
+    handler:props.actionProvider.contact,
+     id: 9
     },
   ];
 
