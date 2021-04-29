@@ -10,7 +10,7 @@ class ActionProvider {
     this.addMessageToState(message);
   };
 
-  /////////////////////////////////////overview/////////////////////////////
+  /////////////////////////////////////Overview/////////////////////////////
   
   academics = () => {
     const message = this.createClientMessage("Academics");
@@ -55,10 +55,7 @@ class ActionProvider {
     
     const message = this.createChatBotMessage(
       "SRM Institute of Science and Technology  is one of the top ranking universities in India with over 52,000 full time students and more than 3200 faculty across all the campuses - Kattankulathur, Ramapuram, Vadapalani Campus – all in and around Chennai,   and Modinagar, NCR, Delhi - offering a wide range of undergraduate, postgraduate and doctoral programs in six Faculties – Engineering & Technology, Management, Medicine & Health sciences, Science & Humanities, Law and Agricultural Sciences .",
-      {
-        widget: "aboutus",
-      }
-    );
+     );
     const message2 =this.createChatBotMessage( <a href="https://www.srmist.edu.in/aboutus/srm-university-where-you-have-freedom-take-wings"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/abo-utus/srm-university-where-you-have-freedom-take-wings</p></a>);
     this.addMessageToState(message1);
     this.addMessageToState(message);
