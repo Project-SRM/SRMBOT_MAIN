@@ -2,18 +2,18 @@ import React from "react";
 
 // import "./tutionfees.css";
 
-const tutionfees = (props) => {
-  const tutionfees = [
+const chem = (props) => {
+  const chem = [
     {
-      text: "Know More",
-      handler:props.actionProvider.el1,
+      text: "Nanotechnology",
+      handler:props.actionProvider.chem1,
       id: 1,
     },
     
     
   ];
 
-  const buttonsMarkup = tutionfees.map((admission) => (
+  const buttonsMarkup = chem.map((admission) => (
     <button key={admission.id} onClick={admission.handler} className="option-eligibility-button">
       {admission.text}
     </button>
@@ -22,4 +22,4 @@ const tutionfees = (props) => {
   return <div className="options-container">{buttonsMarkup}</div>;
 };
 
-export default tutionfees;
+export default chem;

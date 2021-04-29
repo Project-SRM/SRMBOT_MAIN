@@ -84,6 +84,14 @@
   /* margin-left: 230px; */
   text-align: left !important;
 }
+.url-header{
+display: block;
+color: white;
+font-size: 0.90rem ;
+outline: none;
+
+
+}
 .react-chatbot-kit-chat-bot-message-arrow {
   width: 0px !important;
   /* height: 0; */
@@ -206,3 +214,79 @@ input {
   /* left: -7px; */
   /* top: 13px; */
 }
+
+.option-eligibility-button {
+  margin: 5px !important;
+  border-radius: 13px !important;
+  padding: 5px !important;
+  border-color:#1258b4 !important;
+  background: transparent !important;
+  text-align: center !important;
+  font-size: small !important;
+  width:70% !important;
+}
+
+
+.option-eligibility-button:focus, textarea:focus, input:focus{
+  outline: none !important;
+  
+}
+.option-eligibility-button:hover {
+  background-color: rgb(241, 241, 237) !important;
+}
+
+/* .toggle-button{
+width: 10%;
+position: centre;
+
+} */
+
+.intro{
+ color: rgb(14, 13, 13);
+ font-size: medium;
+ position: relative;
+ margin-right: 60px;
+ margin-bottom: 40px;
+ /* padding:10px 20px 30px 00px; */
+}
+.intro-input{
+  border-color: #1258b4;
+  border-radius: 8px;
+  outline : none;
+  font-size: medium;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 10px;
+  
+}
+/* .intro-input :hover{
+  background-color: rgb(241, 241, 237);
+} */
+
+/* .intro-input :hover{
+  background-color: rgb(241, 241, 237);
+} */
+.intro-button{
+ 
+  background-color:#063a7e;
+  margin: 10px !important;
+  border-radius: 13px !important;
+  padding: 5px !important;
+  /* border-color:#1258b4 !important; */
+  color:#ffffff;
+  /* background: transparent !important; */
+  text-align: center !important;
+  font-size: small !important;
+  width:90% !important;
+  position: relative;
+  float: center;
+}
+/* .intro-button :hover{
+  background-color: rgb(189, 189, 184)!important;
+} */

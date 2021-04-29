@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./transportfees.css";
-
 const transportfees = (props) => {
   const transportfees = [
     {

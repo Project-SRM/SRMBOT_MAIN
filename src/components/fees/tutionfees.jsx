@@ -1,19 +1,17 @@
 import React from "react";
 
-import "./hostelfees.css";
-
-const hostelfees = (props) => {
-  const hostelfees = [
+const tutionfees = (props) => {
+  const tutionfees = [
     {
       text: "Know More",
-      handler:props.actionProvider.hostelfees,
+      handler:props.actionProvider.el1,
       id: 1,
     },
     
     
   ];
 
-  const buttonsMarkup = hostelfees.map((admission) => (
+  const buttonsMarkup = tutionfees.map((admission) => (
     <button key={admission.id} onClick={admission.handler} className="option-eligibility-button">
       {admission.text}
     </button>
@@ -22,4 +20,4 @@ const hostelfees = (props) => {
   return <div className="options-container">{buttonsMarkup}</div>;
 };
 
-export default hostelfees;
+export default tutionfees;

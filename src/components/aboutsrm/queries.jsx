@@ -5,9 +5,14 @@ import React from "react";
 const aboutus = (props) => {
   const aboutus = [
     {
-      text: "Know More..",
-      handler: props.actionProvider.aboutusPage,
+      text: "Yes",
+      handler: props.actionProvider.yesmessage,
       id: 1,
+    },
+    {
+      text: "No",
+      handler: props.actionProvider.nomessage,
+      id: 2,
     },
     
     

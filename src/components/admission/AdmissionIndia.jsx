@@ -5,29 +5,35 @@ import React from "react";
 const AdmissionIndia = (props) => {
   const AdmissionIndia = [
     {
+      text: "Courses Offered",
+      handler: props.actionProvider.course,
+      id: 1,
+    },
+    {
       text: "Application",
       handler: props.actionProvider.handleapplication,
-      id: 1,
+      id: 2,
     },
     {
       text: "Eligibility",
       handler: props.actionProvider.handleeligibility,
-      id: 2,
+      id: 3,
     },
     {
       text: "Counselling",
       handler: props.actionProvider.handlecounselling,
-      id: 3,
-    },
-   
-    {
-      text: "Course Related Queries",
-      handler: props.actionProvider.course,
       id: 4,
     },
+   
+    
     {
       text: "Fee Details",
       handler: props.actionProvider.fees,
+      id: 5,
+    },
+    {
+      text: "Placements",
+      handler: props.actionProvider.placement,
       id: 5,
     }
     

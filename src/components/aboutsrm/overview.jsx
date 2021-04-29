@@ -2,8 +2,8 @@ import React from "react";
 
 // import "./Options.css";
 
-const Options = (props) => {
-  const options = [
+const overview = (props) => {
+  const overview = [
     
     {
       text: "Admissions",
@@ -33,7 +33,7 @@ const Options = (props) => {
     },
   ];
 
-  const buttonsMarkup = options.map((option) => (
+  const buttonsMarkup = overview.map((option) => (
     <button key={option.id} onClick={option.handler} className="option-button">
       {option.text}
     </button>
@@ -42,4 +42,4 @@ const Options = (props) => {
   return <div className="options-container">{buttonsMarkup}</div>;
 };
 
-export default Options;
+export default overview;

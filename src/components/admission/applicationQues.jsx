@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./applicationQues.css";
-
 const applicationQues = (props) => {
   const applicationQues = [
     {
@@ -31,7 +29,7 @@ const applicationQues = (props) => {
   ];
 
   const buttonsMarkup = applicationQues.map((admission) => (
-    <button key={admission.id} onClick={admission.handler} className="option-admission-button">
+    <button key={admission.id} onClick={admission.handler} className="option-eligibility-button">
       {admission.text}
     </button>
   ));

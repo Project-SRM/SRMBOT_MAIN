@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./Counselling.css";
 
 const Counselling = (props) => {
   const Counselling = [
@@ -40,7 +39,7 @@ const Counselling = (props) => {
   ];
 
   const buttonsMarkup = Counselling.map((coun) => (
-    <button key={coun.id} onClick={coun.handler} className="option-counselling-button">
+    <button key={coun.id} onClick={coun.handler} className="option-eligibility-button">
       {coun.text}
     </button>
   ));

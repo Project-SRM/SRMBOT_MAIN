@@ -1,5 +1,4 @@
 import React from "react";
- import "./hostelQues.css";
 
 const programs = (props) => {
   const programs = [
@@ -18,7 +17,7 @@ const programs = (props) => {
   ];
 
   const buttonsMarkup = programs.map((prog) => (
-    <button key={prog.id} onClick={prog.handler} className="option-hostelQues-button ">
+    <button key={prog.id} onClick={prog.handler} className="option-eligibility-button ">
       {prog.text}
     </button>
   ));
