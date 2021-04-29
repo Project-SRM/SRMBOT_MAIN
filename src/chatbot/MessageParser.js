@@ -210,6 +210,10 @@ class MessageParser {
       this.actionProvider.comp();
     }
     //&&&&&&&&&&&&______________________SCHOOLS__________________________&&&&&&&&
+    else if(lowercase.includes("thank")||lowercase.includes("by")||lowercase.includes("bi") )
+    {
+      this.actionProvider.nomessage();
+    }
     else if(lowercase==="" )
     {
       this.actionProvider.blankmessage();
