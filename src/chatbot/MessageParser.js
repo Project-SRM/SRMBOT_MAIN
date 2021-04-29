@@ -21,7 +21,7 @@ class MessageParser {
     {
       this.actionProvider.apply();
     }
-    else if(lowercase.includes("fee") || lowercase.includes("fees")||lowercase.includes("payment")||lowercase.includes("allowance needed")||lowercase.includes("charges")||lowercase.includes("figure")||lowercase.includes("price")||lowercase.includes("financial")||lowercase.includes("grant")||lowercase.includes("tution"))
+    else if(lowercase.includes("fee") || lowercase.includes("fees")||lowercase.includes("payment")||lowercase.includes("allowance needed")||lowercase.includes("charges")||lowercase.includes("figure")||lowercase.includes("price")||lowercase.includes("financial")||lowercase.includes("refund")||lowercase.includes("tution") || lowercase.includes("loan") || lowercase.includes("scholar"))
     {
       this.actionProvider.fees();
     }
@@ -36,6 +36,10 @@ class MessageParser {
     else if(lowercase.includes("application")||lowercase.includes("form") )
     {
       this.actionProvider.handleadmissions();
+    }
+    else if(lowercase.includes("engin")||lowercase.includes("med")||lowercase.includes("law")||lowercase.includes("science")||lowercase.includes("humanities")||lowercase.includes("other") )
+    {
+      this.actionProvider.handleprograms();
     }
     else if(lowercase.includes("eligibility criteria")||lowercase.includes("capability")||lowercase.includes("admissibility")||lowercase.includes("qualities")||lowercase.includes("selection needs")||lowercase.includes("requirement")||lowercase.includes("standard")||lowercase.includes("std")||lowercase.includes("guideline")||lowercase.includes("basis") )
     {

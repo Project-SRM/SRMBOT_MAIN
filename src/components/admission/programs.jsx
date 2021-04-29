@@ -7,14 +7,13 @@ const programs = (props) => {
     {
       text: "Engineering",
       handler:props.actionProvider.handleAdmissionIndia,
-      id: 1,
+     
     },
-    { text: "Medicine & Health Science", handler: () => {}, id: 2 },
-    { text: "Management", handler: () => {}, id: 3 },
-    { text: "Law", handler: () => {}, id: 4 },
-    { text: "Science & Humanities", handler: () => {}, id: 5 },
-    { text: "Architechture & Design", handler: () => {}, id: 6 },
-    { text: "Others", handler: () => {}, id: 7 },
+    { text: "Medicine & Health Science", handler:props.actionProvider.academics,},
+    { text: "Management", handler:props.actionProvider.academics,},
+    { text: "Law", handler:props.actionProvider.academics,},
+    { text: "Science & Humanities", handler:props.actionProvider.academics,},
+    { text: "Others", handler:props.actionProvider.academics,},
     
   ];
 

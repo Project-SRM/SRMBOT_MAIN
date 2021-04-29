@@ -10,6 +10,7 @@ class ActionProvider {
     this.addMessageToState(message);
   };
 
+
   /////////////////////////////////////Overview/////////////////////////////
   
   academics = () => {
@@ -27,7 +28,7 @@ class ActionProvider {
   international = () => {
     const message = this.createClientMessage("International");
     this.addMessageToState(message);
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-international/content/faqs#"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/admission-international/content/faqs#</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-international/content/faqs#"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/ad-mission-international/content/faqs#</p></a>);
     this.addMessageToState(a);    
   };
   events = () => {
@@ -39,7 +40,7 @@ class ActionProvider {
   research = () => {
     const message = this.createClientMessage("Research");
     this.addMessageToState(message);
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/research/research-details"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/research/research-details</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/research/research-details"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/re-search/research-details</p></a>);
     this.addMessageToState(a);
   };
   campus = () => {
@@ -47,7 +48,7 @@ class ActionProvider {
     const message = this.createClientMessage("Campus Life");
     this.addMessageToState(message);
 
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/campus/campus"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/campus/campus</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/campus/campus"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/ca-mpus/campus</p></a>);
     this.addMessageToState(a);
   };
   handleaboutus = () => {
@@ -55,7 +56,10 @@ class ActionProvider {
     
     const message = this.createChatBotMessage(
       "SRM Institute of Science and Technology  is one of the top ranking universities in India with over 52,000 full time students and more than 3200 faculty across all the campuses - Kattankulathur, Ramapuram, Vadapalani Campus – all in and around Chennai,   and Modinagar, NCR, Delhi - offering a wide range of undergraduate, postgraduate and doctoral programs in six Faculties – Engineering & Technology, Management, Medicine & Health sciences, Science & Humanities, Law and Agricultural Sciences .",
-     );
+      {
+        widget: "aboutus",
+      }
+    );
     const message2 =this.createChatBotMessage( <a href="https://www.srmist.edu.in/aboutus/srm-university-where-you-have-freedom-take-wings"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/abo-utus/srm-university-where-you-have-freedom-take-wings</p></a>);
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -72,7 +76,7 @@ class ActionProvider {
     this.addMessageToState(message);
     
 
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/contact-us"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/contact-us</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/contact-us"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/co-ntact-us</p></a>);
     this.addMessageToState(a);
   };
 
@@ -454,7 +458,7 @@ elsemessage = () => {
     this.addMessageToState(message);
     
 
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/cancellation-of-admission-and-refund-policy"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/cancellation-of-admission-and-refund-policy</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/cancellation-of-admission-and-refund-policy"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/ad-mission-india/cancellation-of-admission-and-refund-policy</p></a>);
     this.addMessageToState(a);
   };
   //////////////////////scholarship//////////////////////////
@@ -462,13 +466,13 @@ elsemessage = () => {
     const message = this.createClientMessage("Scholarship");
     this.addMessageToState(message);
    
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/fees/scholarships"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/engineering/fees/scholarships</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/fees/scholarships"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/ad-mission-india/engineering/fees/scholarships</p></a>);
     this.addMessageToState(a);
   };
   ///////////////////////////loan/////////////////////////////
   loan = () => {
     const message = this.createClientMessage("Loans");
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/fees/loans"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/engineering/fees/loans</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/fees/loans"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/ad-mission-india/engineering/fees/loans</p></a>);
     this.addMessageToState(message);
     this.addMessageToState(a);
   };
@@ -540,7 +544,7 @@ elsemessage = () => {
   hostelfeesmessage = () => {
     const message1=this.createClientMessage("Hostel Fees");
     const message = this.createChatBotMessage(
-      "Boy's Hostel AC 2,18,000-2,28,000\n Boy's Hostel Non-AC 92,000-1,33,000\n Girl's Hostel AC 2,13,000-2,38,000\n Girl's Hostel Non-AC  1,02,500-1,43,000",
+      "Boy's Hostel (AC) - 2.18k-2.28k   Boy's Hostel (Non-AC) - 92k-1.33k Girl's Hostel (AC) - 2.13k-2.38k  Girl's Hostel (Non-AC) - 1.025k-1.43k",
       {
         widget: "hostelfees",
       }

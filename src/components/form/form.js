@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import { ConditionallyRender } from "react-util-kit";
 
- 
+
 
 function Form  ()  {
     const [name,setName]=useState("");
