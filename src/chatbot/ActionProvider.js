@@ -1560,14 +1560,14 @@ elsemessage = () => {
   
   /////////////////////////no yes return messages///////////////////////////
   nomessage = () => {
-    const message1=this.createClientMessage("No");
+    // const message1=this.createClientMessage("No");
     const message = this.createChatBotMessage(
       "Thank you for connecting with us!!"
     );
     const message2 = this.createChatBotMessage(
       "For further details, we kindly request you to get in touch with SRM Info Center. 044-47437500 / 044-27455510 Always glad to help you!"
     );
-    this.addMessageToState(message1);
+    // this.addMessageToState(message1);
     this.addMessageToState(message);
     this.addMessageToState(message2);
   };
