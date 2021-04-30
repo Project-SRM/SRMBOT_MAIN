@@ -402,7 +402,7 @@ elsemessage = () => {
   el1 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for B.Tech Programs?");
     const message = this.createChatBotMessage(
-      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM."
+      "Nationality and Age:Resident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM."
       
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
@@ -432,7 +432,7 @@ elsemessage = () => {
   el3 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for Bio-Engineering Programs?");
     const message = this.createChatBotMessage(
-      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM/PMB/PCB."
+      "Nationality and Age:Resident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM/PMB/PCB."
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -709,7 +709,7 @@ elsemessage = () => {
   bio1 = () => {
     const message1=this.v=this.createClientMessage("Biomedical Engineering (BME)")
     const message = this.createChatBotMessage(
-      "Available Seats:\n . .  .  Kattankulathur- 120\n | Ramapuram- 60\n | Vadapalani- 0\n | NCR- 0\n | Amravati-0\n |  Haryana-60\n | Sikkim-0"
+      "Available Seats : . . Kattankulathur - 120 | | Vadapalani-0 | | Haryana - 60 | | NCR - 0 | | Amravati  - 0 | | | Ramapuram-60 | | Sikkim - 0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -721,7 +721,7 @@ elsemessage = () => {
   bio2 = () => {
     const message1=this.v=this.createClientMessage("Biotechnology")
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-240\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-240 | | Vadapalani-0 | | Haryana-0 | | NCR-0 | |  | | Amravati - 0  | | | Ramapuram-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -733,7 +733,7 @@ elsemessage = () => {
   bio3 = () => {
     const message1=this.v=this.createClientMessage("Biomedical W/S in Genetic Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -745,7 +745,7 @@ elsemessage = () => {
   bio4 = () => {
     const message1=this.v=this.createClientMessage("Biomedical W/S in Regenerative Medicine");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | || | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -757,7 +757,7 @@ elsemessage = () => {
   bio5 = () => {
     const message1=this.v=this.createClientMessage("Biomedical with specialization in Cancer Genetics");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -769,7 +769,7 @@ elsemessage = () => {
   bio6 = () => {
     const message1=this.v=this.createClientMessage("Chemical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-90\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-90 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -794,7 +794,7 @@ elsemessage = () => {
   arc1 = () => {
     const message1=this.createClientMessage("B.Arch-Architecture");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-80\n Ramapuram-80\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-80 | | | Ramapuram-80 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -806,7 +806,7 @@ elsemessage = () => {
   arc2 = () => {
     const message1=this.createClientMessage("B.Des-Interior Design");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -829,7 +829,7 @@ elsemessage = () => {
   comp1 = () => {
     const message1=this.createClientMessage("Artificial Intelligence");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -841,7 +841,7 @@ elsemessage = () => {
   comp2 = () => {
     const message1=this.createClientMessage("Computer Science and Business Systems(in partnership with TCS");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-60\n Vadapalani-60\n NCR-30\n Amravati-0\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-60 | | Vadapalani-60 | | NCR-30 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -853,7 +853,7 @@ elsemessage = () => {
   comp3 = () => {
     const message1=this.createClientMessage("Computer Science and Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-780\n Ramapuram-600\n Vadapalani-120\n NCR-420\n Amravati-240\n Haryana-120\n Sikkim-60"
+      "Available Seats : . . Kattankulathur-780 | | | Ramapuram-600 | | Vadapalani-120 | | NCR-420 | | Amravati -240 | | Haryana-120 | | Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -865,7 +865,7 @@ elsemessage = () => {
   comp4 = () => {
     const message1=this.createClientMessage("CSE and Big Data Analytics");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-60\n NCR-60\n Amravati-90\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-60 | | NCR-60 | | Amravati -90 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -877,7 +877,7 @@ elsemessage = () => {
   comp5 = () => {
     const message1=this.createClientMessage("CSE W/S in Artificial Intelligence and Machine Learning");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-180\n Ramapuram-180\n Vadapalani-60\n NCR-120\n Amravati-120\n Haryana-0\n Sikkim-60"
+      "Available Seats : . . Kattankulathur-180 | | | Ramapuram-180 | | Vadapalani-60 | | NCR-120 | | Amravati -120 | | Haryana-0 | | Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -889,7 +889,7 @@ elsemessage = () => {
   comp6 = () => {
     const message1=this.createClientMessage("CSE W/S in Data Science & Artificial Intelligence(in association with IBM");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-150\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-150 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -901,7 +901,7 @@ elsemessage = () => {
   comp7 = () => {
     const message1=this.createClientMessage("CSE W/S in Blockchain Technology");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -913,7 +913,7 @@ elsemessage = () => {
   comp8 = () => {
     const message1=this.createClientMessage("CSE W/S in Blockchain&IoT(in association with IBM)");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -925,7 +925,7 @@ elsemessage = () => {
   comp9 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud Computing");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-60\n Amravati-30\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-60 | | Amravati -30 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -937,7 +937,7 @@ elsemessage = () => {
   comp10 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud Engineering and DevOps Automation(in association with Xebia)");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -949,7 +949,7 @@ elsemessage = () => {
   comp11 = () => {
     const message1=this.createClientMessage("CSE W/S in Computer Networking");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -961,7 +961,7 @@ elsemessage = () => {
   comp12 = () => {
     const message1=this.createClientMessage("CSE W/S in Cyber Security");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-0\n NCR-60\n Amravati-90\n Haryana-0\n Sikkim-60"
+      "Available Seats : . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-0 | | NCR-60 | | Amravati -90 | | Haryana-0 | | Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -973,7 +973,7 @@ elsemessage = () => {
   comp13 = () => {
     const message1=this.createClientMessage("CSE W/S in Gaming Technology");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -985,7 +985,7 @@ elsemessage = () => {
   comp14 = () => {
     const message1=this.createClientMessage("CSE W/S in Internet of things");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-30\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati -30 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -997,7 +997,7 @@ elsemessage = () => {
   comp15 = () => {
     const message1=this.createClientMessage("CSE with software Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1009,7 +1009,7 @@ elsemessage = () => {
   comp16 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud and Mobile Based Applications (in association with IBM)");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1021,7 +1021,7 @@ elsemessage = () => {
   comp17 = () => {
     const message1=this.createClientMessage("CSE W/S in Information Technology");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1033,7 +1033,7 @@ elsemessage = () => {
   comp18 = () => {
     const message1=this.createClientMessage("CSE with specilization in Financial Technologies");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1045,7 +1045,7 @@ elsemessage = () => {
   comp19 = () => {
     const message1=this.createClientMessage("Information Techonology");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-180\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-180 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1073,7 +1073,7 @@ elsemessage = () => {
   mech1 = () => {
     const message1=this.createClientMessage("Aerospace Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1085,7 +1085,7 @@ elsemessage = () => {
   mech2 = () => {
     const message1=this.createClientMessage("Automobile Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-30\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-30 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1097,7 +1097,7 @@ elsemessage = () => {
   mech3 = () => {
     const message1=this.createClientMessage("Automobile Engineering w/s in Vehicle Testing");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1109,7 +1109,7 @@ elsemessage = () => {
   mech4 = () => {
     const message1=this.createClientMessage("Automobile with specialisation in Automation Electronics");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1121,7 +1121,7 @@ elsemessage = () => {
   mech5 = () => {
     const message1=this.createClientMessage("Mechanical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-540\n Ramapuram-120\n Vadapalani-12\n NCR-60\n Amravati-20\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-540 | | | Ramapuram-120 | | Vadapalani-12 | | NCR-60 | | Amravati -20 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1133,7 +1133,7 @@ elsemessage = () => {
   mech6 = () => {
     const message1=this.createClientMessage("Mechanical and Automation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1144,7 +1144,7 @@ elsemessage = () => {
   mech7 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s in Artificial Intelligence and Machine Learning");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-12\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-12 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1156,7 +1156,7 @@ elsemessage = () => {
   mech8 = () => {
     const message1=this.createClientMessage("Mechanical Engineering with specialisation in Robotics/Mechtronics");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1168,7 +1168,7 @@ elsemessage = () => {
   mech9 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Additive Manufacturing");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1180,7 +1180,7 @@ elsemessage = () => {
   mech10 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Advanced Materials");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1192,7 +1192,7 @@ elsemessage = () => {
   mech11 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Automative Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1204,7 +1204,7 @@ elsemessage = () => {
   mech12 = () => {
     const message1=this.createClientMessage("Mechatronics Engineer");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1218,7 +1218,7 @@ elsemessage = () => {
   mech13 = () => {
     const message1=this.createClientMessage("Mechatronics Engineering with specialisation in Robotics");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1244,7 +1244,7 @@ elsemessage = () => {
   chem1 = () => {
     const message1=this.createClientMessage("Nanotechnology");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1267,7 +1267,7 @@ elsemessage = () => {
   civil1 = () => {
     const message1=this.createClientMessage("Civil Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-0\n NCR-30\n Amravati-30\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-0 | | NCR-30 | | Amravati -30 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1279,7 +1279,7 @@ elsemessage = () => {
   civil2 = () => {
     const message1=this.createClientMessage("Civil Engineering with Computer Application");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1291,7 +1291,7 @@ elsemessage = () => {
   civil3 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Structural Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1303,7 +1303,7 @@ elsemessage = () => {
   civil4 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Geotechnical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1315,7 +1315,7 @@ elsemessage = () => {
   civil5 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Transportation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1327,7 +1327,7 @@ elsemessage = () => {
   civil6 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Water Resources and Environmental Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-GREEN\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -GREEN | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1353,7 +1353,7 @@ elsemessage = () => {
   eee1 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-240\n Ramapuram-60\n Vadapalani-0\n NCR-60\n Amravati-30\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-240 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-60 | | Amravati -30 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1365,7 +1365,7 @@ elsemessage = () => {
   eee2 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s E-Mobility");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1377,7 +1377,7 @@ elsemessage = () => {
   eee3 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s Smart Grid");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1389,7 +1389,7 @@ elsemessage = () => {
   eee4 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s Energy Efficient Systems");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1401,7 +1401,7 @@ elsemessage = () => {
   eee5 = () => {
     const message1=this.createClientMessage("Electrical and Computer Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1413,7 +1413,7 @@ elsemessage = () => {
   eee6 = () => {
     const message1=this.createClientMessage("Electronics and Communication Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-660\n Ramapuram-240\n Vadapalani-60\n NCR-120\n Amravati-120\n Haryana-60\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-660 | | | Ramapuram-240 | | Vadapalani-60 | | NCR-120 | | Amravati -120 | | Haryana-60 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1425,7 +1425,7 @@ elsemessage = () => {
   eee7 = () => {
     const message1=this.createClientMessage("Electronics and Computer Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-120\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-120 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1437,7 +1437,7 @@ elsemessage = () => {
   eee8 = () => {
     const message1=this.createClientMessage("ECE W/S in Cyber Physical Systems");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amaravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 Amaravati-0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1449,7 +1449,7 @@ elsemessage = () => {
   eee9 = () => {
     const message1=this.createClientMessage("ECE W/S Data Science");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-60\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-60 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1461,7 +1461,7 @@ elsemessage = () => {
   eee10 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s VLSI & Embedded Systems");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1473,7 +1473,7 @@ elsemessage = () => {
   eee11 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s Advanced Communication Systems");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1485,7 +1485,7 @@ elsemessage = () => {
   eee12 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s Signal/Image Processing using AI");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1497,7 +1497,7 @@ elsemessage = () => {
   eee13 = () => {
     const message1=this.createClientMessage("Electrical and Instrumentation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
+      "Available Seats : . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
