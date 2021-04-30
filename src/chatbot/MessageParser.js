@@ -97,8 +97,11 @@ class MessageParser {
     {
       this.actionProvider.srmjee();
     }
-    
-
+    else if (lowercase.includes("contributors"))
+    { 
+      message="Purboshi Das,Nandini Chourasia,Sidhant Suman,Arpit Dakhera,Vishnupriya Jayaraman,Vijeta Sarkar";
+      console.log(message);
+    }
     else if(lowercase.includes("jee") && lowercase.includes("consider") )
     {
       this.actionProvider.appli4();
