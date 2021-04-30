@@ -97,11 +97,8 @@ class MessageParser {
     {
       this.actionProvider.srmjee();
     }
-    else if (lowercase.includes("contributors"))
-    { 
-      message="Purboshi Das,Nandini Chourasia,Sidhant Suman,Arpit Dakhera,Vishnupriya Jayaraman,Vijeta Sarkar";
-      console.log(message);
-    }
+    
+
     else if(lowercase.includes("jee") && lowercase.includes("consider") )
     {
       this.actionProvider.appli4();
@@ -174,7 +171,7 @@ class MessageParser {
     {
       this.actionProvider.course();
     }
-    else if(lowercase.includes("architechture") ||lowercase.includes("b.arch"))
+    else if(lowercase.includes("arch") ||lowercase.includes("b.arch"))
     {
       this.actionProvider.arc1();
     }
