@@ -4,14 +4,14 @@ const programs = (props) => {
   const programs = [
     {
       text: "What room furnishings are provided by the hostel?",
-      handler:props.actionProvider.hostelQues1,
-      id: 1,
+      handler:props.actionProvider.hostelQues1
     },
-    { text: "What necessary items must students bring to the hostel?", handler:props.actionProvider.hostelQues2, id: 2 },
-    { text: "What are the facilities available for the students in the hostel?", handler:props.actionProvider.hostelQues3, id: 3 },
-    { text: "What are the recreational facilities available in the hostel?", handler:props.actionProvider.hostelQues4, id: 4 },
-    { text: "What are the Hostel Mess Facilities?", handler:props.actionProvider.hostelQues5, id: 5 },
-    { text: "Is there a Laundry Service available in the hostel?", handler:props.actionProvider.hostelQues6, id: 6 },
+    { text: "What necessary items students must bring to the hostel?", handler:props.actionProvider.hostelQues2},
+    { text: "What are the facilities available for the students in the hostel?", handler:props.actionProvider.hostelQues3},
+    { text: "What are the recreational facilities available in the hostel?", handler:props.actionProvider.hostelQues4},
+    { text: "What are the Hostel Mess Facilities?", handler:props.actionProvider.hostelQues5},
+    { text: "Is there a Laundry Service available in the hostel?", handler:props.actionProvider.hostelQues6},
+    { text: "Know More", handler:props.actionProvider.hostelQues7},
    
     
   ];

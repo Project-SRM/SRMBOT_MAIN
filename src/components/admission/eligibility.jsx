@@ -23,7 +23,7 @@ const eligibility = (props) => {
       id: 4,
     },
     { text: "What are the courses in B.Tech for which a student with PCB is eligible?", handler:props.actionProvider.el5, id: 5 },
-    { text: "My ward is currently doing his B.Tech 1st year in other University. can I join him in SRM from 2nd year?", handler:props.actionProvider.el6, id: 6 },
+    { text: "I am currently doing my B.Tech 1st year in other University.Can I join SRM from 2nd year?", handler:props.actionProvider.el6, id: 6 },
     { text: "I Am studying HSC through NIOS, Am I eligible?", handler:props.actionProvider.el7, id: 7 },
     { text: "Know More", handler:props.actionProvider.ElKnowMore, id: 8 },
     

@@ -35,7 +35,7 @@ class MessageParser {
     }
     else if(lowercase.includes("application")||lowercase.includes("form") )
     {
-      this.actionProvider.handleadmissions();
+      this.actionProvider.handleapplication();
     }
     else if(lowercase.includes("engin")||lowercase.includes("med")||lowercase.includes("law")||lowercase.includes("science")||lowercase.includes("humanities")||lowercase.includes("other") )
     {

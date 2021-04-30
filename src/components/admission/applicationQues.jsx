@@ -3,7 +3,7 @@ import React from "react";
 const applicationQues = (props) => {
   const applicationQues = [
     {
-      text: "When will be the application form be issued & how to enter data?",
+      text: "When will the application form be issued & how to enter data?",
       handler:props.actionProvider.appli1,
       id: 1,
     },
@@ -13,7 +13,7 @@ const applicationQues = (props) => {
     { text: "What are the required documents for SRMJEEE?", 
     handler:props.actionProvider.appli3, 
     id: 3 },
-    { text: "Are Jee and other govt exams marks considered in SRM?", 
+    { text: "Are JEE and other govt exams marks considered in SRM?", 
     handler:props.actionProvider.appli4, 
     id: 4 },
     { text: "Can an NRI candidate apply for entrance examination?", 

@@ -1,10 +1,88 @@
 {
   "posts": [
     {
-      "name": "Purboshi Das",
-      "email": "pd5289@srmist.edu.in",
-      "mobile": "07565018554",
-      "id": 1
+      "id": 1,
+      "name": "json-server",
+      "email": "a@gmail.com",
+      "mobile": 1234567890
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 2
+    },
+    {
+      "name": "Purboshi",
+      "email": "p@gmail.com",
+      "mobile": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "vishnu ",
+      "email": "v@gmail.com",
+      "mobile": "67676767",
+      "id": 4
+    },
+    {
+      "name": "nandini",
+      "email": "n@gmail.com",
+      "mobile": "78788999",
+      "id": 5
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 6
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 7
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 8
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "name": "Vijeta Sarkar",
+      "email": "vijeta.sarkar201099@gmail.com",
+      "mobile": "08789903704",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "id": 12
+    },
+    {
+      "name": "/><button>hello</button>",
+      "email": "",
+      "mobile": "",
+      "id": 13
+    },
+    {
+      "name": "/><button>hello</button>",
+      "email": "f@gmail.com",
+      "mobile": "543421189",
+      "id": 14
     }
   ],
   "comments": [

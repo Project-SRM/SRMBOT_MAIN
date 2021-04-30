@@ -17,31 +17,51 @@ class ActionProvider {
     const message = this.createClientMessage("Academics");
     this.addMessageToState(message);
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in"  target="_blank" class="url-link"><p class="url-header">For detailed info please visit https://www.srmist.edu.in</p></a>);
-    this.addMessageToState(a); 
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(a);
+    this.addMessageToState(message3); 
   };
   postgrad = () => {
     const message = this.createClientMessage("Post Graduate");
     this.addMessageToState(message);
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/"  target="_blank" class="url-link"><p class="url-header">For detailed info please visit https://www.srmist.edu.in/</p></a>);
-    this.addMessageToState(a);    
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(a);
+    this.addMessageToState(message3);    
   };
   international = () => {
     const message = this.createClientMessage("International");
     this.addMessageToState(message);
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-international/content/faqs#"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/ad-mission-international/content/faqs#</p></a>);
-    this.addMessageToState(a);    
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(a);
+    this.addMessageToState(message3);    
   };
   events = () => {
     const message = this.createClientMessage("Events");
     this.addMessageToState(message);
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/events-archive/2021"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/events-archive/2021</p></a>);
-    this.addMessageToState(a);  
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(a);
+    this.addMessageToState(message3);  
   };
   research = () => {
     const message = this.createClientMessage("Research");
     this.addMessageToState(message);
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/research/research-details"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/re-search/research-details</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
   campus = () => {
     
@@ -49,7 +69,11 @@ class ActionProvider {
     this.addMessageToState(message);
 
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/campus/campus"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/ca-mpus/campus</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
   handleaboutus = () => {
     const message1 = this.createClientMessage("About Us");
@@ -61,9 +85,13 @@ class ActionProvider {
       }
     );
     const message2 =this.createChatBotMessage( <a href="https://www.srmist.edu.in/aboutus/srm-university-where-you-have-freedom-take-wings"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/abo-utus/srm-university-where-you-have-freedom-take-wings</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(message1);
     this.addMessageToState(message);
     this.addMessageToState(message2);
+    this.addMessageToState(message3);
   };
 
   apply = () => {
@@ -77,7 +105,11 @@ class ActionProvider {
     
 
     const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/contact-us"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/co-ntact-us</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
 
   ////////////////////////Admission/////////////////////
@@ -216,8 +248,12 @@ this.addMessageToState(message1);
     const message = this.createClientMessage("Admission Criteria");
     this.addMessageToState(message);
    
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/admission-procedure-admission-criteria"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/engineering/admission-procedure-admission-criteria</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/admission-procedure-admission-criteria"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/ad-mission-india/engineering/admission-procedure-admission-criteria</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
 //////////////////////////////////courses offered//////////////////////////
   course = () => {
@@ -230,7 +266,7 @@ this.addMessageToState(message1);
   };
   /////////////////////application questions/////////////////////////////////////
 appli1 = () => {
-  const message1=this.createClientMessage("When will be the applicaiton form be issued & how to enter data?");
+  const message1=this.createClientMessage("When will  the applicaiton form be issued & how to enter data?");
   
   const message = this.createChatBotMessage(
     "It is already released Candidates can apply online with e-payment or DD payment.You must ensure correctness of data before final submission. In case of any error, from your dashboard and submit the details of the corrections to be done. We shall effect the corrections and inform the same."
@@ -243,15 +279,17 @@ appli1 = () => {
   this.addMessageToState(message2);
 };
 appli2 = () => {
-  const message1=this.createClientMessage("What are the fee structure for admission in various programs and for lateral entry?");
+  const message1=this.createClientMessage("What is the fee structure for admission in various programs and for lateral entry?");
   const message = this.createChatBotMessage(
-    "The fee structure is available in our web portal. Click here for details http://www.srmist.edu.in/admission-india/fee-details/engineering_and_technologyFees structure is same as for the first year B.Tech students . Admission will be offered depending on the availability of seats. Interested candidates can contact us"
+    "The fee structure is available in our web portal.Structure is same as for the first year B.Tech students . Admission will be offered depending on the availability of seats. Interested candidates can contact us."
   );
+  const a=this.createChatBotMessage(<a href="http://www.srmist.edu.in/admission-india/fee-details/engineering_and_technologyFees"  target="_blank" class="url-link"><p class="url-header">Click here for more details</p></a>);
   const message2 = this.createChatBotMessage("Do you have more queries?", {
     widget: "queries",
   });
   this.addMessageToState(message1);
   this.addMessageToState(message);
+  this.addMessageToState(a);
   this.addMessageToState(message2);
 };
 appli3 = () => {
@@ -267,8 +305,8 @@ appli3 = () => {
   this.addMessageToState(message2);
 };
 appli4 = () => {
-  const message1=this.createClientMessage("Are jee and other govt exam marks considered in SRM?");
-  this.addMessageToState(message1);
+  const message1=this.createClientMessage("Are JEE and other govt exam marks considered in SRM?");
+  
   const message = this.createChatBotMessage(
     "Top 1000 rankers in IIT JEE, Top rankers in Board Examinations and districts toppers in Tamil Nadu state are recommended to approach Directorate of Admission with valid proof"
   );
@@ -281,7 +319,7 @@ appli4 = () => {
 };
 appli5 = () => {
   const message1=this.createClientMessage("Can an NRI candidate apply for entrance examination?");
-  this.addMessageToState(message1);
+  
   const message = this.createChatBotMessage(
     "Yes. You can apply and appear for Entrance Examination."
   );
@@ -317,8 +355,12 @@ elsemessage = () => {
     this.addMessageToState(message);
     // window.open(
     //   "https://www.srmist.edu.in/admission-india/engineering/admission-procedure-how-to-apply"
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/admission-procedure-how-to-apply"  target="_blank" class="url-link"><p class="url-header">For detailed info please visit https://www.srmist.edu.in/admission-india/engineering/admission-procedure-how-to-apply</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/engineering/admission-procedure-how-to-apply"  target="_blank" class="url-link"><p class="url-header">For detailed info please visit https://www.srmist.edu.in/ad-mission-india/engineering/admission-procedure-how-to-apply</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
 
   syllabus = () => {
@@ -360,15 +402,7 @@ elsemessage = () => {
   el1 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for B.Tech Programs?");
     const message = this.createChatBotMessage(
-      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM"
-    );
-    this.addMessageToState(message1);
-    this.addMessageToState(message);
-  };
-  el2 = () => {
-    const message1=this.createClientMessage("What is the eligibility criteria for B.Arch ?");
-    const message = this.createChatBotMessage(
-      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM / PMB/PCB."
+      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM."
       
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
@@ -378,10 +412,27 @@ elsemessage = () => {
     this.addMessageToState(message);
     this.addMessageToState(message2);
   };
+  el2 = () => {
+    const message1=this.createClientMessage("What is the eligibility criteria for B.Arch ?");
+    const message = this.createChatBotMessage(
+      "A pass in 10+2 examination with at least 50% aggregate marks in Physics, Chemistry & Mathematics and also at least 50% marks in aggregate of the 10+2 level examination or passed 10+3 Diploma Examination with Mathematics as compulsory subject with at least 50% marks in aggregate."
+    );
+    const message2 = this.createChatBotMessage(
+      "A pass in National Aptitude Test in Architecture (NATA), IITJEE Mains - Paper II is also considered, based on the passing criteria."
+    );
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+    this.addMessageToState(message3);
+  };
+  
   el3 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for Bio-Engineering Programs?");
     const message = this.createChatBotMessage(
-      " A pass in 10+2 examination with at least 50% aggregate marks in Physics, Chemistry & Mathematics and also at least 50% marks in aggregate of the 10+2 level examination or passed 10+3 Diploma Examination with Mathematics as compulsory subject with at least 50% marks in aggregate."
+      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM/PMB/PCB."
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -394,7 +445,7 @@ elsemessage = () => {
   el4 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for B.Des?");
     const message = this.createChatBotMessage(
-      "A Pass in 10+2 (Higher Secondary) examination or any other equivalent examination of any authority recognized by SRMIST with a minimum of 50% aggregate/percentage of marks. Criteria 1: UCEED Score + (Written Exam + Personal Interview) at SRMIST Criteria 2: Written Exam + Personal Interview at SRMIST"
+      "A Pass in 10+2 (Higher Secondary) examination or any other equivalent examination of any authority recognized by SRMIST with a minimum of 50% aggregate/percentage of marks. Criteria 1: UCEED Score + (Written Exam+Personal Interview) at SRM Criteria 2: Written Exam + Personal Interview at SRMIST"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -417,9 +468,9 @@ elsemessage = () => {
     this.addMessageToState(message2);
   };
   el6 = () => {
-    const message1=this.createClientMessage("My ward is currently doing his B.Tech 1st year in other University. can I join him in SRM from 2nd year?");
+    const message1=this.createClientMessage("I am currently doing my B.Tech 1st year in other University. Can I join SRM from 2nd year?");
     const message = this.createChatBotMessage(
-      "Not possible, because our regulations do not have provision for such a migration"
+      "Yes, We have provision for migration."
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -576,7 +627,7 @@ elsemessage = () => {
     this.addMessageToState(message2);
   };
   hostelQues2 = () => {
-    const message1=this.createClientMessage("What necessary items must students bring to the hostel?");
+    const message1=this.createClientMessage("What necessary items students must bring to the hostel?");
     const message = this.createChatBotMessage(
       "The bed and bathroom accessories, such as mattresses, pillows, bed covers, buckets, mugs etc., need to be purchased by the students. The students can purchase the same at the University shops within the campus."
     );
@@ -588,7 +639,7 @@ elsemessage = () => {
     this.addMessageToState(message2);
   };
   hostelQues3 = () => {
-    const message1=this.createClientMessage("What are the facilities available for the students in the hostel");
+    const message1=this.createClientMessage("What are the facilities available for the students in the hostel?");
     const message = this.createChatBotMessage(
       "Each hostel block has a R.O. Plant and Solar Heater. Hence pure drinking water and hot water for bath are available. The hostels are Wi-Fi enabled."
     );
@@ -635,6 +686,16 @@ elsemessage = () => {
     this.addMessageToState(message);
     this.addMessageToState(message2);
   };
+  hostelQues7 = () => {
+    const message = this.createClientMessage("Events");
+    this.addMessageToState(message);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/sample-faqs-hostel"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://www.srmist.edu.in/sample-faqs-hostel</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
+    this.addMessageToState(a);
+    this.addMessageToState(message3);  
+  };
 
   ////////////////////Biotechnology Questions/////////////////////////////////////
     bio = () => {
@@ -648,7 +709,7 @@ elsemessage = () => {
   bio1 = () => {
     const message1=this.v=this.createClientMessage("Biomedical Engineering (BME)")
     const message = this.createChatBotMessage(
-      "Available Seats:\n Kattankulathur- 120\n Ramapuram- 60\n Vadapalani- 0 NCR- 0\n Amravati-0\n Haryana-60\n Sikkim-0"
+      "Available Seats:\n . .  .  Kattankulathur- 120\n | Ramapuram- 60\n | Vadapalani- 0\n | NCR- 0\n | Amravati-0\n |  Haryana-60\n | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1547,14 +1608,22 @@ elsemessage = () => {
   placement_rec = () => {
     const message1=this.createClientMessage("Recruiters");
     this.addMessageToState(message1);
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/placement/recruiters"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/placement/recruiters</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/placement/recruiters"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/place-ment/recruiters</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
   };
   placement_contact = () => {
     const message1=this.createClientMessage("Placement Contact");
     this.addMessageToState(message1);
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/placement/contacts"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/placement/contacts</p></a>);
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/placement/contacts"  target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/place-ment/contacts</p></a>);
+    const message3 = this.createChatBotMessage("Do you have more queries?", {
+      widget: "queries",
+    });
     this.addMessageToState(a);
+    this.addMessageToState(message3);
     
   };
   
