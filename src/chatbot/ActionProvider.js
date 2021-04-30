@@ -97,7 +97,8 @@ class ActionProvider {
   apply = () => {
     const message = this.createClientMessage("Apply");
     this.addMessageToState(message);
-    window.open("https://www.srmist.edu.in/admission-india/");
+    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/" target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/</p></a>);
+    this.addMessageToState(a);
   };
   contact = () => {
     const message = this.createClientMessage("Contact Us");
