@@ -46,14 +46,14 @@ function Form  ()  {
           <>
           <div>
               <form  className="intro" >
-                <div>Name :- &nbsp;&nbsp;
-                  <input  value={name} onChange={(e)=>{setName(e.target.value)}} name="name" className="intro-input"required></input>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name
+                  <input  value={name} onChange={(e)=>{setName(e.target.value)}} placeholder="Enter Full Name" name="name" className="intro-input"required></input>
                   </div>
-                  <div>Email :-  &nbsp; &nbsp;
-                  <input  value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" className="intro-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></input>
+                  <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email
+                  <input  value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" className="intro-input" placeholder="Enter Email-Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></input>
                   </div>
-                  <div>Phone :- &nbsp;
-                  <input  value={mobile} onChange={(e)=>{setMobile(e.target.value)}} name="mobile"className="intro-input"  required></input>
+                  <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number
+                  <input  value={mobile} onChange={(e)=>{setMobile(e.target.value)}} name="mobile"className="intro-input" placeholder="  Enter Phone Number"  required></input>
                   </div>      
                   
                   <button type="SUBMIT" id="SubmitId" className="intro-button"  onClick={saveUser} >Submit</button>
