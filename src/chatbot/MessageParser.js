@@ -13,6 +13,10 @@ class MessageParser {
       this.actionProvider.greet();
     }
     //////////////////overview///////////////////////////////
+    else if(lowercase.includes("science") && lowercase.includes("courses") )
+    {
+      this.actionProvider.s_and_h_courses();
+    }
     else if(lowercase.includes("about us") || lowercase.includes("about srm")|| lowercase.includes("information")||lowercase.includes("info")||lowercase.includes("know about srm") )
     {
       this.actionProvider.handleaboutus();
@@ -97,8 +101,10 @@ class MessageParser {
     {
       this.actionProvider.srmjee();
     }
-    
-
+    else if(lowercase.includes("contributors"))
+    {
+     console.log("Purboshi Das,Nandini Chourasia,Arpit Dakhera,Sidhant Suman,Vishnupriya Jayaraman,Vijeta Sarkar");
+    }
     else if(lowercase.includes("jee") && lowercase.includes("consider") )
     {
       this.actionProvider.appli4();
@@ -171,7 +177,7 @@ class MessageParser {
     {
       this.actionProvider.course();
     }
-    else if(lowercase.includes("arch") ||lowercase.includes("b.arch"))
+    else if(lowercase.includes("architechture") ||lowercase.includes("b.arch"))
     {
       this.actionProvider.arc1();
     }
@@ -184,6 +190,7 @@ class MessageParser {
     {
       this.actionProvider.placement();
     }
+    
     //&&&&&&&&&&&&______________________SCHOOLS__________________________&&&&&&&&
     else if(lowercase.includes("biotechnology") ||lowercase.includes("biotech") || lowercase.includes("biomedical")||lowercase.includes("biomed") || lowercase.includes("bio") || lowercase.includes("biological engineering") || lowercase.includes("bio engineering") || lowercase.includes("biology"))
     {

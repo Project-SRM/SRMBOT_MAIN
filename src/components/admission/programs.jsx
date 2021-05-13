@@ -9,11 +9,11 @@ const programs = (props) => {
       handler:props.actionProvider.handleAdmissionIndia,
      
     },
-    { text: "Medicine & Health Science", handler:props.actionProvider.academics,},
-    { text: "Management", handler:props.actionProvider.academics,},
-    { text: "Law", handler:props.actionProvider.academics,},
-    { text: "Science & Humanities", handler:props.actionProvider.academics,},
-    { text: "Others", handler:props.actionProvider.academics,},
+    { text: "Medicine & Health Science", handler:props.actionProvider.med_courses,},
+    { text: "Management", handler:props.actionProvider.management_courses,},
+    { text: "Law", handler:props.actionProvider.law_courses,},
+    { text: "Science & Humanities", handler:props.actionProvider.s_and_h_courses,},
+    { text: "Hotel Management", handler:props.actionProvider.hotel_management_courses,},
     
   ];
 

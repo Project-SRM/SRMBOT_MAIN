@@ -1,38 +1,51 @@
 import React, { useState, useEffect } from "react";
 // import { ConditionallyRender } from "react-util-kit";
+// import firebase from '.../firebase'
+
 
 
 
 function Form  ()  {
+  
     const [name,setName]=useState("");
     const [email,setEmail]=useState("");
     const [mobile,setMobile]=useState("");
-    function saveUser(){
-        console.warn({name,email,mobile});
-        let data = {name,email,mobile}
-        fetch("http://localhost:5000/posts",{
-            method:'POST',
-            headers:{
-                'Accept':'application/json',
-                'Content-Type':'application/json'
-            },
-            body:JSON.stringify(data)
-        }).then((result)=>{
-            //console.warn("result",result);
-            result.json().then((resp)=>{
-                console.warn("resp",resp)
-            })
-        })
-        alert('Form is been submitted');
+   
+    
+  function saveUser(){
+      console.warn({name,email,mobile});
+      let data = {name,email,mobile}
+      if(name!=""&&email!=""&&mobile!=""){
+      fetch("http://localhost:5000/posts",{
+          method:'POST',
+          headers:{
+              'Accept':'application/json',
+              'Content-Type':'application/json'
+          },
+          body:JSON.stringify(data)
+      }).then((result)=>{
+          console.warn("result",result);
+          result.json().then((resp)=>{
+              console.warn("resp",resp)
+          })
+      })
+}
+
+
+      if(name!=""&&email!=""&&mobile!=""){
+        alert("Form Submitted");
+       }
+        
+     
     }
     
-
+    // prompt("Please enter your name", "Harry Potter");
   return (
     <div className="form-container">
       
           <>
           <div>
-              <form  className="intro">
+              <form  className="intro" >
                 <div>Name :- &nbsp;&nbsp;
                   <input  value={name} onChange={(e)=>{setName(e.target.value)}} name="name" className="intro-input"required></input>
                   </div>
@@ -43,13 +56,18 @@ function Form  ()  {
                   <input  value={mobile} onChange={(e)=>{setMobile(e.target.value)}} name="mobile"className="intro-input"  required></input>
                   </div>      
                   
-                  <button type="SUBMIT" className="intro-button"  onClick={saveUser}>Submit</button>
+                  <button type="SUBMIT" id="SubmitId" className="intro-button"  onClick={saveUser} >Submit</button>
+                  
                 </form>
             </div>
           </>
   
     </div>
+    
+
   );
+  
 }
+
 
 export default Form;

@@ -93,12 +93,11 @@ class ActionProvider {
     this.addMessageToState(message2);
     this.addMessageToState(message3);
   };
-  
+
   apply = () => {
     const message = this.createClientMessage("Apply");
     this.addMessageToState(message);
-    const a=this.createChatBotMessage(<a href="https://www.srmist.edu.in/admission-india/" target="_blank" class="url-link"><p class="url-header">https://www.srmist.edu.in/admission-india/</p></a>);
-    this.addMessageToState(a);
+    window.open("https://www.srmist.edu.in/admission-india/");
   };
   contact = () => {
     const message = this.createClientMessage("Contact Us");
@@ -149,11 +148,1120 @@ class ActionProvider {
 this.addMessageToState(message1);
     this.addMessageToState(message);
   };
+  handleprograms_post = () => {
+    const message1 = this.createClientMessage("Post Graduate");
+    
+    const message = this.createChatBotMessage(
+      "May I know which stream are you interested in",
+      {
+        widget: "programs_post",
+      }
+    );
+this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
   
   handleAdmissionIndia = () => {
     const message1 = this.createClientMessage("Engineering");
     const message = this.createChatBotMessage("Your queries are related to :", {
       widget: "AdmissionIndia",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
+  /////////////______MANAGEMENT___________//////////////
+
+  management_courses = () => {
+    const message1 = this.createClientMessage("Science and Humanities");
+    const message = this.createChatBotMessage("Within Science and Humanities :",
+    {
+      widget: "S_and_H_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  management_courses1 = () => {
+    const message1 = this.createClientMessage("English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses2 = () => {
+    const message1 = this.createClientMessage("English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses3 = () => {
+    const message1 = this.createClientMessage("English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses4 = () => {
+    const message1 = this.createClientMessage("English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+  /////////////______HOTEL_MANAGEMENT___________//////////////
+
+  hotel_management_courses = () => {
+    const message1 = this.createClientMessage("Hotel Management");
+    const message = this.createChatBotMessage("Within hotel management :",
+    {
+      widget: "Hotel_Management_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  hotel_management_courses1 = () => {
+    const message1 = this.createClientMessage("Diploma in Hotel Management");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 100 | Fees/year :- 55k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- A Pass in SSLC ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  hotel_management_courses2 = () => {
+    const message1 = this.createClientMessage("B.Sc. In Hotel & Catering Management");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 300 | Fees/year :- 80k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) Any Group. (Minimum aggregate of 35%)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+  /////////////______HOTEL_MANAGEMENT___________//////////////
+
+  ////////_________MAnagement_post_______//////////
+
+  management_courses_post = () => {
+    const message1 = this.createClientMessage("Management");
+    const message = this.createChatBotMessage("Within Management :",
+    {
+      widget: "Management_Courses_Post",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  management_courses_post1 = () => {
+    const message1 = this.createClientMessage("M.B.A. - Business Administration");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 240 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post2 = () => {
+    const message1 = this.createClientMessage("M.B.A. - Hospital Management");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post3 = () => {
+    const message1 = this.createClientMessage("M.B.A. - Waste Management and Social Entrepreneurship");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post4 = () => {
+    const message1 = this.createClientMessage("MBA- Banking and Financial Service");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post5 = () => {
+    const message1 = this.createClientMessage("MBA- Data Science");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post6 = () => {
+    const message1 = this.createClientMessage("MBA- Digital Marketing");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses_post7 = () => {
+    const message1 = this.createClientMessage("M.B.A - Business Analytics");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 3.5L-3.75L  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- * A Bachelor's degree with minimum aggregate of 50% * Students should have appeared for any one of the nationally recognized entrance tests (CAT/TANCET/XAT/MAT/GMAT/-NMAT/CMAT) or SRM Joint Entrance Exam (SRMJEE-M) * Professionals with less than 2 years of work experience and less than 26 years age may also apply if they qualify the above two eligibility criteria. * Students with Diploma and UGC recognised Distance education degrees will have to mandatorily undertake test conducted by SRM IST and score a min of 60%");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+  ///////__________Management_post_______/////////
+
+  /////////////______MANAGEMENT___________//////////////
+
+  management_courses = () => {
+    const message1 = this.createClientMessage("Management");
+    const message = this.createChatBotMessage("Within Management :",
+    {
+      widget: "Management_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  management_courses1 = () => {
+    const message1 = this.createClientMessage("B.B.A. - Business Administration");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 270 | Fees/year :- 100k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- A Pass in Higher Secondary Examination or Equivalent (Academic or Vocational Stream ) with a Minimum eligibility of aggregate of 50% in +2 (Preference will be given to students without any break in study and students who secures aggregate of 60 % of Marks in +2)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses2 = () => {
+    const message1 = this.createClientMessage("B.B.A. (Hons.)- Business Administration");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 25 | Fees/year :- 125k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- A Pass in Higher Secondary Examination or Equivalent (Academic or Vocational Stream ) with a Minimum eligibility of aggregate of 60% in +2.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses3 = () => {
+    const message1 = this.createClientMessage("B.B.A. - Rural Management");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 10 | Fees/year :- 100k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- A Pass in Higher Secondary Examination or Equivalent (Academic or Vocational Stream ) with a Minimum eligibility of aggregate of 50% in +2 (Preference will be given to students without any break in study and students who secures aggregate of 60 % of Marks in +2)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  management_courses4 = () => {
+    const message1 = this.createClientMessage("B.B.A. - Digital Marketing");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 25 | Fees/year :- 100k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- A Pass in Higher Secondary Examination or Equivalent (Academic or Vocational Stream ) with a Minimum eligibility of aggregate of 50% in +2 (Preference will be given to students without any break in study and students who secures aggregate of 60 % of Marks in +2)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+  /////////////______MANAGEMENT___________//////////////
+
+  ////////////______MED_COURSES_POST______/////////
+  med_courses_post = () => {
+    const message1 = this.createClientMessage("Medicine & Health Science");
+    const message = this.createChatBotMessage("Within Medicine & Health Science:",
+    {
+      widget: "Med_Courses_post",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1 = () => {
+    const message1 = this.createClientMessage("SRM Medical College Hospital and Research Centre ");
+    const message = this.createChatBotMessage("Within SRM Medical College Hospital and Research Centre :",
+    {
+      widget: "Med_Courses_post1",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post2 = () => {
+    const message1 = this.createClientMessage("SRM Kattankulathur Dental College and Hospital");
+    const message = this.createChatBotMessage("Within SRM Kattankulathur Dental College and Hospital",
+    {
+      widget: "Med_Courses_post2",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post3 = () => {
+    const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
+    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
+    {
+      widget: "Med_Courses_post3",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post4 = () => {
+    const message1 = this.createClientMessage("Health Sciences");
+    const message = this.createChatBotMessage("Within Health Sciences :",
+    {
+      widget: "Med_Courses_post4",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post5 = () => {
+    const message1 = this.createClientMessage("Other Courses Offered ");
+    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    {
+      widget: "Med_Courses_post5",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    {
+      widget: "Med_Courses_post1_1",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2 = () => {
+    const message1 = this.createClientMessage("Other Courses Offered ");
+    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    {
+      widget: "Med_Courses_post1_2",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_3 = () => {
+    const message1 = this.createClientMessage("Other Courses Offered ");
+    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    {
+      widget: "Med_Courses_post1_3",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
+  ////////////______MED_COURSES_POST______/////////
+
+  ////////////_______MED_COURSES__________///////////
+  med_courses = () => {
+    const message1 = this.createClientMessage("Medicine & Health Science");
+    const message = this.createChatBotMessage("Within Medicine & Health Science:",
+    {
+      widget: "Med_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses1 = () => {
+    const message1 = this.createClientMessage("SRM Medical College Hospital and Research Centre ");
+    const message = this.createChatBotMessage("Within SRM Medical College Hospital and Research Centre :",
+    {
+      widget: "Med_Courses1",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses2 = () => {
+    const message1 = this.createClientMessage("SRM Kattankulathur Dental College and Hospital");
+    const message = this.createChatBotMessage("Within SRM Kattankulathur Dental College and Hospital",
+    {
+      widget: "Med_Courses2",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses3 = () => {
+    const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
+    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
+    {
+      widget: "Med_Courses3",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses4 = () => {
+    const message1 = this.createClientMessage("Health Sciences");
+    const message = this.createChatBotMessage("Within Health Sciences :",
+    {
+      widget: "Health_Sciences",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses5 = () => {
+    const message1 = this.createClientMessage("Other Courses Offered ");
+    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    {
+      widget: "Med_Courses5",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses1_1 = () => {
+    const message1 = this.createClientMessage("Bachelor of Medicine and Bachelor of Science(MBBS)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 150 | Fees/year :- 22.5L  |  Duration :- 4 & 1/2yrs + 1yr(internship) "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1.Minimum age must be 17 yrs. || 2. H.S.C / (+2) or equivalent qualification with English, Physics, Chemistry and Biology/Botany & Zoology with minimum marks as per MCI norms || 3. Eligible NEET (UG) score as prescribed by MCI ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  med_courses2_1 = () => {
+    const message1 = this.createClientMessage("Bachelor of Dental Surgery(BDS)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 100 | Fees/year :- 22.5L  |  Duration :- 4yrs + 1yr(internship) "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1.Minimum age must be 17 yrs. || 2. H.S.C / (+2) or equivalent qualification with English, Physics, Chemistry and Biology/Botany & Zoology with minimum marks as per DCI norms || 3. Eligible NEET (UG) score as prescribed by DGHS ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2); }
+  ////////////_______MED_COURSES__________///////////
+
+  ////////////_____HEALTH_SCIENCES_______///////////
+  
+  health_sciences1 = () => {
+    const message1 = this.createClientMessage("SRM Medical College Hospital and Research Centre ");
+    const message = this.createChatBotMessage("Within SRM Medical College Hospital and Research Centre :",
+    {
+      widget: "Health_Sciences1",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  health_sciences2 = () => {
+    const message1 = this.createClientMessage("SRM Kattankulathur Dental College and Hospital");
+    const message = this.createChatBotMessage("Within SRM Kattankulathur Dental College and Hospital",
+    {
+      widget: "Health_Sciences2",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  health_sciences3 = () => {
+    const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
+    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
+    {
+      widget: "Health_Sciences3",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  health_sciences4 = () => {
+    const message1 = this.createClientMessage("Health Sciences");
+    const message = this.createChatBotMessage("Within Health Sciences :",
+    {
+      widget: "Health_Sciences4",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  health_sciences5 = () => {
+    const message1 = this.createClientMessage("Other Courses Offered ");
+    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    {
+      widget: "Health_Sciences5",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  ////////////_____HEALTH_SCIENCES_______///////////
+
+
+  //////////////////______Law_Post______////////////
+
+  law_courses_post = () => {
+    const message1 = this.createClientMessage("Law");
+    const message = this.createChatBotMessage("Within Law :",
+    {
+      widget: "Law_Courses_Post",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  law_courses_post1 = () => {
+    const message1 = this.createClientMessage("LL.M - Criminal Law and Criminal Justice");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 40 | Fees/year :- 85k  |  Duration :-1 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- UG Law Degree with 60% aggregate.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  law_courses_post2 = () => {
+    const message1 = this.createClientMessage("LL.M - International Trade Law");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 25 | Fees/year :- 85k  |  Duration :-1 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- UG Law Degree with 60% aggregate.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+  /////////////////______Law_Post_________///////////
+
+  /////////////______Law___________//////////////
+
+  law_courses = () => {
+    const message1 = this.createClientMessage("Law");
+    const message = this.createChatBotMessage("Within Law :",
+    {
+      widget: "Law_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  law_courses1 = () => {
+    const message1 = this.createClientMessage("B.A. LL.B (Hons.)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 120 | Fees/year :- 200k  |  Duration :-5 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 10, + 2 pass in regular/normal mode. Minimum 60% aggregate in +2 board examination. Appeared in 2021 CLAT/LSAT/ SRM Law Entrance .");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  law_courses2 = () => {
+    const message1 = this.createClientMessage("B.Com. LL.B (Hons.)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 200k  |  Duration :-5 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 10, + 2 pass in regular/normal mode. Minimum 60% aggregate in +2 board examination. Appeared in 2021 CLAT/LSAT/ SRM Law Entrance .");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  law_courses3 = () => {
+    const message1 = this.createClientMessage("LL.B (Hons.)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 120 | Fees/year :- 200k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- Any Degree with 60% aggregate and Should pass +2 regular /normal mode.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+
+
+   /////////////______Law___________//////////////
+
+   ///////////////__________Science_and_humnanities_post________//////
+
+   s_and_h_courses_post = () => {
+    const message1 = this.createClientMessage("Science and Humanities");
+    const message = this.createChatBotMessage("Within Science and Humanities :",
+    {
+      widget: "S_and_H_Courses_Post",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
+  s_and_h_courses_post1 = () => {
+    const message1 = this.createClientMessage("M.A - English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 30 | Fees/year :- 30k  |  Duration :-2 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- BA (English) (Minimum Aggregate of 50%)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  s_and_h_courses_post2 = () => {
+    const message1 = this.createClientMessage("Journalism & Mass Communication");
+    const message = this.createChatBotMessage("Within Journalism & Mass Communication:-", {
+      widget: "S_and_H_Journal_Post",
+    });
+    
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    
+  };
+  s_and_h_courses_post3 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Visual Communication");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 100k  |  Duration :-2 yrs" );
+    const message2 = this.createChatBotMessage("Eligibility :- Any UG Degree. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses_post4 = () => {
+    const message1 = this.createClientMessage("M.Com. - Commerce");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 30k  |  Duration :-2 yrs");
+    const message2 = this.createChatBotMessage("Eligibility:- Any UG degree with Accountancy and Commerce as Major course (B.Com. any stream, BBM, BCS and BBA) (Minimum Aggregate of 50%)");
+    
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses_post5 = () => {
+    const message1 = this.createClientMessage("M.Com. -Accounting and Finance");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 30k  |  Duration :-2 yrs");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+    
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses_post6 = () => {
+    const message1 = this.createClientMessage("Education");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 50 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Degree with B.Ed. (As per NCTE Norms)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses_post7 = () => {
+    const message1 = this.createClientMessage("Bio-Technology");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 100k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Biotechnology / B.Sc. Biology / B.Sc. Microbiology / B.Sc. Biochemistry /B.Sc. Agriculture / B.Sc. Physics / B.Sc. Botany / B.Sc. Zoology / B.Sc. Chemistry / B.Tech. Biotech / MBBS / BDS / BVSC / Genetics / any UG course with Biotechnology as one of the subjects/Triple major subjects and B.Sc. (Medical Lab Technology). (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses_post8 = () => {
+    const message1 = this.createClientMessage("Basic Sciences");
+    const message = this.createChatBotMessage("Within Basic Sciences :", {
+      widget: "S_and_H_BS_Post",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses_post9 = () => {
+    const message1 = this.createClientMessage("Computer Science");
+    const message = this.createChatBotMessage("Within  Computer Science:", {
+      widget: "S_and_H_CS_Post",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+ 
+  s_and_h_courses_post10 = () => {
+    const message1 = this.createClientMessage("M.Sc. Yoga");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 15k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Any degree in any Discipline from any recognized University");
+    
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+  /////////////________S_And_H_BS_Post_____////////////
+
+  s_and_h_BS_post1 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Physics");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 50 | Fees/year :- 40k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Physics with Mathematics as an ancillary subject or B.Sc. Triple Major with Physics as Major subject (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post2 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Chemistry");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 40 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Chemistry with Chemistry as a major Subject or Triple Major with Chemistry as one of the major Subjects (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post3 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Mathematics ");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 50 | Fees/year :- 30k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Mathematics with Mathematics as a major subject or B.Sc. Triple Major with Mathematics as one of the major subjects. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post4 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Atmospheric Science");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 40k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B. Sc. with Physics as a major subject / B. Sc. Triple Major with Physics as one of the major subjects  or equivalent ");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post5 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Organic Chemistry");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Chemistry / B.Sc. (Honors) Chemistry / B.Sc.Triple Majors with chemistry as one of the major subjects.");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post6 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Applied Mathematics & Data Analytics");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 70k  |  Duration :-5 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 +2 (Higher Secondary) Mathematics mandatory; Physics / Chemistry / Computer Science / Statistics");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS_post7 = () => {
+    const message1 = this.createClientMessage("M.Sc.-Biochemistry");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 60k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Degree in Biochemistry, Chemistry, Microbiology,Biotechnology, Nutrition & Dietetics and Life Sciences (10+2+3 pattern)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+   /////////////________S_And_H_CS_Post_____////////////
+   
+   s_and_h_CS_post1 = () => {
+    const message1 = this.createClientMessage("M.C.A. - Computer Applications");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 120 | Fees/year :- 100k  |  Duration :- yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- a) Passed B.C.A / B.Sc. in Computer Science / B.Sc. in Information Technology / B.Sc in Computer Technology / Bachelor Degree in Computer Science Engineering or equivalent Degree from a University recognized / certified by UGC / SRMIST / AIU OR b) Passed B.Sc. / B.Com. / B.A. from University recognized/certified by UGC / SRMIST / AIU with Mathematics at 10+2 Level or at Graduation Level. c) The Minimum Percentage of Marks / CGPA prescribed by SRMIST. d ) Notwithstanding the above, actual Admissions will also be based on the rules and regulations of the UGC / AICTE / Competent authorities.");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_CS_post2 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Information Technology");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 50k  |  Duration :- yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- B.Sc. Computer Science or B.Sc. (IT) or BCA or B.Sc. Mathematics or B.Sc. Statistics or B.Sc. Physics or B.Sc. Electronics Triple major Subject With Computer Science as one of the Major Subjects.(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_CS_post3 = () => {
+    const message1 = this.createClientMessage("M.Sc. - Applied Data Science");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 50 | Fees/year :- 100k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- BSc IT / BSc Computer Science/ BCA/ BSc Mathematics / BSc Statistics/ BSc Physics/ BSc Electronics / Triple major subjects with Computer Science as one of the Major subjects ");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+  /////////////________S_And_H_Journal_____////////////
+ 
+  s_and_h_journal_post1 = () => {
+    const message1 = this.createClientMessage("M.A.- Journalism and Mass Communication");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Any Bachelor Degree. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_journal_post2 = () => {
+    const message1 = this.createClientMessage("M.A.-Public Relations");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Any Bachelor Degree. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+   
+  
+
+
+   ///////////////__________Science__and_Humanities_post__________//////////
+
+/////////////////__________Science_And_Humanities____________________/////////////
+
+  // handleS_and_H = () => {
+  //   const message1 = this.createClientMessage("Science and Humanities");
+  //   const message = this.createChatBotMessage("Your queries are related to :", {
+  //     widget: "S_and_H",
+  //   });
+  //   this.addMessageToState(message1);
+  //   this.addMessageToState(message);
+  // };
+
+  s_and_h_courses = () => {
+    const message1 = this.createClientMessage("Science and Humanities");
+    const message = this.createChatBotMessage("Within Science and Humanities :",
+    {
+      widget: "S_and_H_Courses",
+    }
+    );
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
+  s_and_h_courses1 = () => {
+    const message1 = this.createClientMessage("English");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+   
+  };
+  s_and_h_courses2 = () => {
+    const message1 = this.createClientMessage("Journalism & Mass Communication");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 80k  |  Duration :-3 yrs");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses3 = () => {
+    const message1 = this.createClientMessage("Visual Communication");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 180 | Fees/year :- 100k  |  Duration :-3 yrs" );
+    const message2 = this.createChatBotMessage("Eligibility :- 10 + 2 (Higher Secondary) Any group (or) 10+3Year Diploma(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses4 = () => {
+    const message1 = this.createClientMessage("Commerce");
+    const message = this.createChatBotMessage("Within Commerce:-", {
+      widget: "S_and_H_Commerce",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses5 = () => {
+    const message1 = this.createClientMessage("Corporate Secretary And Accounting & Finance");
+    const message = this.createChatBotMessage("Within Corporate Secretary And Accounting & Finance", {
+      widget: "S_and_H_CSA",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses6 = () => {
+    const message1 = this.createClientMessage("Education");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 200 | Fees/year :- 50k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Any degree  (As per NCTE Norms)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses7 = () => {
+    const message1 = this.createClientMessage("Bio-Technology");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 120 | Fees/year :- 80k  |  Duration :-2 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Biology mandatory with Physics, Chemistry, Computer Science, Mathematics, Psychology or any Life Science subjects.(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses8 = () => {
+    const message1 = this.createClientMessage("Basic Sciences");
+    const message = this.createChatBotMessage("Within Basic Sciences :", {
+      widget: "S_and_H_BS",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses9 = () => {
+    const message1 = this.createClientMessage("Computer Science");
+    const message = this.createChatBotMessage("Within  Computer Science:", {
+      widget: "S_and_H_CS",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses10 = () => {
+    const message1 = this.createClientMessage("Fashion Designing");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 50k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses11 = () => {
+    const message1 = this.createClientMessage("Physical Education");
+    const message = this.createChatBotMessage("Within Physical Education :", {
+      widget: "S_and_H_PE",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  s_and_h_courses12 = () => {
+    const message1 = this.createClientMessage("Sociology");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 30k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Complete the 10+2 Exam with any major. (Minimum of 50 percentage in 12th Exam.)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses13 = () => {
+    const message1 = this.createClientMessage("Psychology");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Complete the 10+2 Exam with science stream. (Minimum of 50 percentage in 12th Exam.)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_courses14 = () => {
+    const message1 = this.createClientMessage("Defence");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 60k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%). Vocational groups are not eligible");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+  /////////////________S_And_H_Commerce_____////////////
+
+  s_and_h_commerce1 = () => {
+    const message1 = this.createClientMessage("B.Com.Commerce ");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 180 | Fees/year :- 80k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy .(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_commerce2 = () => {
+    const message1 = this.createClientMessage("B.Com. - Information System and Management");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 50k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_commerce3 = () => {
+    const message1 = this.createClientMessage("B.Com. (Hons.) - International Accounting and Finance");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 125k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy .(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_commerce4 = () => {
+    const message1 = this.createClientMessage("B.Com. (Hons.) - Professional Accounting");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 125k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy . (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_commerce5 = () => {
+    const message1 = this.createClientMessage("B.Com. (Hons.) - Strategic Finance");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 125k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy .(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+/////////////________S_And_H_CSA_____////////////
+ 
+  s_and_h_CSA1 = () => {
+    const message1 = this.createClientMessage("B.Com. - Accounting and Finance");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 70k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy .(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_CSA2 = () => {
+    const message1 = this.createClientMessage("B.Com. - Corporate Secretaryship");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 70k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Commerce, Accountancy .(Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+  /////////////________S_And_H_BS_____////////////
+
+  s_and_h_BS1 = () => {
+    const message1 = this.createClientMessage("B.Sc. - Physics");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Physics, Chemistry and Mathematics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS2 = () => {
+    const message1 = this.createClientMessage("B.Sc. - Chemistry");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Physics, Chemistry and Mathematics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS3 = () => {
+    const message1 = this.createClientMessage("B.Sc. - Mathematics ");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 40k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Mathematics  Mandatory; Physics /Chemistry / Computer Science / Statistics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_BS4 = () => {
+    const message1 = this.createClientMessage("B.Sc.-Biochemistry");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 50k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- Candidates who have completed their 10th (SSLC) & +2(HSC) education in Science stream from a recognised Board where they have studied Physics,Chemistry, Biology  compulsorily and Mathematics (optional) can join Bsc Biochemistry.Students without biology or chemistry in their +2 cannot select this course. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+
+   /////////////________S_And_H_CS_____////////////
+   
+   s_and_h_CS1 = () => {
+    const message1 = this.createClientMessage("B.C.A. - Computer Applications");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 180 | Fees/year :- 80k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Mathematics mandatory or Computer Science with Mathematics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_CS2 = () => {
+    const message1 = this.createClientMessage("B.C.A. - Computer Applications - Data Science");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 60 | Fees/year :- 90k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Mathematics mandatory or Computer Science with Mathematics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  s_and_h_CS3 = () => {
+    const message1 = this.createClientMessage("B.Sc. - Computer Science");
+    const message = this.createChatBotMessage("Seats Available (in KTR) :- 120 | Fees/year :- 80k  |  Duration :-3 yrs ");
+    const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Mathematics mandatory or Computer Science with Mathematics. (Minimum Aggregate of 50%)");
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+   
+
+/////////////________S_And_H_PE_____////////////
+
+s_and_h_PE1 = () => {
+  const message1 = this.createClientMessage("B.Sc. - Physical Education, Health Education and Sports");
+  const message = this.createChatBotMessage("Seats Available (in KTR) :- 50 | Fees/year :- 20k  |  Duration :-3 yrs ");
+  const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+  this.addMessageToState(message1);
+  this.addMessageToState(message);
+  this.addMessageToState(message2);
+};
+s_and_h_PE2 = () => {
+  const message1 = this.createClientMessage("B.Sc. Yoga");
+  const message = this.createChatBotMessage("Seats Available (in KTR) :- 30 | Fees/year :- 20k  |  Duration :-3 yrs ");
+  const message2 = this.createChatBotMessage("Eligibility:- 10 + 2 (Higher Secondary) with Any Group. (Minimum Aggregate of 50%)");
+  this.addMessageToState(message1);
+  this.addMessageToState(message);
+  this.addMessageToState(message2);
+};
+
+
+
+/////////////////__________Science_And_Humanities____________________/////////////
+
+  handleManagement = () => {
+    const message1 = this.createClientMessage("Management");
+    const message = this.createChatBotMessage("Your queries are related to :", {
+      widget: "Management",
+    });
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  handleLaw = () => {
+    const message1 = this.createClientMessage("Law");
+    const message = this.createChatBotMessage("Your queries are related to :", {
+      widget: "Law",
     });
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -403,7 +1511,7 @@ elsemessage = () => {
   el1 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for B.Tech Programs?");
     const message = this.createChatBotMessage(
-      "Nationality and Age:Resident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM."
+      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM."
       
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
@@ -433,7 +1541,7 @@ elsemessage = () => {
   el3 = () => {
     const message1=this.createClientMessage("What is the eligibility criteria for Bio-Engineering Programs?");
     const message = this.createChatBotMessage(
-      "Nationality and Age:Resident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM/PMB/PCB."
+      "Nationality and Age:\nResident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by Government of India are eligible to apply for SRMJEEE (UG).Minimum 50% aggregate in PCM/PMB/PCB."
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -710,7 +1818,7 @@ elsemessage = () => {
   bio1 = () => {
     const message1=this.v=this.createClientMessage("Biomedical Engineering (BME)")
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur - 120 | | Vadapalani-0 | | Haryana - 60 | | NCR - 0 | | Amravati  - 0 | | | Ramapuram-60 | | Sikkim - 0"
+      "Available Seats:\n . .  .  Kattankulathur- 120\n | Ramapuram- 60\n | Vadapalani- 0\n | NCR- 0\n | Amravati-0\n |  Haryana-60\n | Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -722,7 +1830,7 @@ elsemessage = () => {
   bio2 = () => {
     const message1=this.v=this.createClientMessage("Biotechnology")
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-240 | | Vadapalani-0 | | Haryana-0 | | NCR-0 | |  | | Amravati - 0  | | | Ramapuram-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-240\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -734,7 +1842,7 @@ elsemessage = () => {
   bio3 = () => {
     const message1=this.v=this.createClientMessage("Biomedical W/S in Genetic Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -746,7 +1854,7 @@ elsemessage = () => {
   bio4 = () => {
     const message1=this.v=this.createClientMessage("Biomedical W/S in Regenerative Medicine");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 |  | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -758,7 +1866,7 @@ elsemessage = () => {
   bio5 = () => {
     const message1=this.v=this.createClientMessage("Biomedical with specialization in Cancer Genetics");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -770,7 +1878,7 @@ elsemessage = () => {
   bio6 = () => {
     const message1=this.v=this.createClientMessage("Chemical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-90 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-90\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -795,7 +1903,7 @@ elsemessage = () => {
   arc1 = () => {
     const message1=this.createClientMessage("B.Arch-Architecture");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-80 | | | Ramapuram-80 | | Vadapalani-0 | | NCR-0 | | Amravati  - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-80\n Ramapuram-80\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -807,7 +1915,7 @@ elsemessage = () => {
   arc2 = () => {
     const message1=this.createClientMessage("B.Des-Interior Design");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -830,7 +1938,7 @@ elsemessage = () => {
   comp1 = () => {
     const message1=this.createClientMessage("Artificial Intelligence");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats   :  -  || Kattankulathur-120        |   Rama-puram-0  |    Vadapalani-0  |   NCR-0  |   Amravati-0    |    Haryana-0  |  Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -842,7 +1950,7 @@ elsemessage = () => {
   comp2 = () => {
     const message1=this.createClientMessage("Computer Science and Business Systems(in partnership with TCS");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-60 | | Vadapalani-60 | | NCR-30 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-60\n Vadapalani-60\n NCR-30\n Amravati-0\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -854,7 +1962,7 @@ elsemessage = () => {
   comp3 = () => {
     const message1=this.createClientMessage("Computer Science and Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-780 | | | Ramapuram-600 | | Vadapalani-120 | | NCR-420 | | Amravati -240 | | Haryana-120 | | Sikkim-60"
+      "Available Seats:\n Kattankulathur-780\n Ramapuram-600\n Vadapalani-120\n NCR-420\n Amravati-240\n Haryana-120\n Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -866,7 +1974,7 @@ elsemessage = () => {
   comp4 = () => {
     const message1=this.createClientMessage("CSE and Big Data Analytics");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-60 | | NCR-60 | | Amravati -90 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-60\n NCR-60\n Amravati-90\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -878,7 +1986,7 @@ elsemessage = () => {
   comp5 = () => {
     const message1=this.createClientMessage("CSE W/S in Artificial Intelligence and Machine Learning");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-180 | | | Ramapuram-180 | | Vadapalani-60 | | NCR-120 | | Amravati -120 | | Haryana-0 | | Sikkim-60"
+      "Available Seats:\n Kattankulathur-180\n Ramapuram-180\n Vadapalani-60\n NCR-120\n Amravati-120\n Haryana-0\n Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -890,7 +1998,7 @@ elsemessage = () => {
   comp6 = () => {
     const message1=this.createClientMessage("CSE W/S in Data Science & Artificial Intelligence(in association with IBM");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-150 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-150\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -902,7 +2010,7 @@ elsemessage = () => {
   comp7 = () => {
     const message1=this.createClientMessage("CSE W/S in Blockchain Technology");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -914,7 +2022,7 @@ elsemessage = () => {
   comp8 = () => {
     const message1=this.createClientMessage("CSE W/S in Blockchain&IoT(in association with IBM)");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -926,7 +2034,7 @@ elsemessage = () => {
   comp9 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud Computing");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-60 | | Amravati -30 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-60\n Amravati-30\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -938,7 +2046,7 @@ elsemessage = () => {
   comp10 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud Engineering and DevOps Automation(in association with Xebia)");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -950,7 +2058,7 @@ elsemessage = () => {
   comp11 = () => {
     const message1=this.createClientMessage("CSE W/S in Computer Networking");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -962,7 +2070,7 @@ elsemessage = () => {
   comp12 = () => {
     const message1=this.createClientMessage("CSE W/S in Cyber Security");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-0 | | NCR-60 | | Amravati -90 | | Haryana-0 | | Sikkim-60"
+      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-0\n NCR-60\n Amravati-90\n Haryana-0\n Sikkim-60"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -974,7 +2082,7 @@ elsemessage = () => {
   comp13 = () => {
     const message1=this.createClientMessage("CSE W/S in Gaming Technology");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -986,7 +2094,7 @@ elsemessage = () => {
   comp14 = () => {
     const message1=this.createClientMessage("CSE W/S in Internet of things");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati -30 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-30\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -998,7 +2106,7 @@ elsemessage = () => {
   comp15 = () => {
     const message1=this.createClientMessage("CSE with software Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1010,7 +2118,7 @@ elsemessage = () => {
   comp16 = () => {
     const message1=this.createClientMessage("CSE W/S in Cloud and Mobile Based Applications (in association with IBM)");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-60 | | Sikkim-0"
+      "Available Seats   :  -  || Kattankulathur-0       |   Ramapuram-0  |    Vadapalani-0  |   NCR-0  |   Amravati-0    |    Haryana-60  |  Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1022,7 +2130,7 @@ elsemessage = () => {
   comp17 = () => {
     const message1=this.createClientMessage("CSE W/S in Information Technology");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1034,7 +2142,7 @@ elsemessage = () => {
   comp18 = () => {
     const message1=this.createClientMessage("CSE with specilization in Financial Technologies");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1046,7 +2154,7 @@ elsemessage = () => {
   comp19 = () => {
     const message1=this.createClientMessage("Information Techonology");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-180 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats   :  -  || Kattankulathur-0        |   Ramapuram-180  |    Vadapalani-0  |   NCR-0  |   Amravati-0    |    Haryana-0  |  Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1074,7 +2182,7 @@ elsemessage = () => {
   mech1 = () => {
     const message1=this.createClientMessage("Aerospace Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1086,7 +2194,7 @@ elsemessage = () => {
   mech2 = () => {
     const message1=this.createClientMessage("Automobile Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-30 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-30\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1098,7 +2206,7 @@ elsemessage = () => {
   mech3 = () => {
     const message1=this.createClientMessage("Automobile Engineering w/s in Vehicle Testing");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1110,7 +2218,7 @@ elsemessage = () => {
   mech4 = () => {
     const message1=this.createClientMessage("Automobile with specialisation in Automation Electronics");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1122,7 +2230,7 @@ elsemessage = () => {
   mech5 = () => {
     const message1=this.createClientMessage("Mechanical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-540 | | | Ramapuram-120 | | Vadapalani-12 | | NCR-60 | | Amravati -20 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-540\n Ramapuram-120\n Vadapalani-12\n NCR-60\n Amravati-20\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1134,7 +2242,7 @@ elsemessage = () => {
   mech6 = () => {
     const message1=this.createClientMessage("Mechanical and Automation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1145,7 +2253,7 @@ elsemessage = () => {
   mech7 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s in Artificial Intelligence and Machine Learning");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-12 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-12\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1157,7 +2265,7 @@ elsemessage = () => {
   mech8 = () => {
     const message1=this.createClientMessage("Mechanical Engineering with specialisation in Robotics/Mechtronics");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1169,7 +2277,7 @@ elsemessage = () => {
   mech9 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Additive Manufacturing");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1181,7 +2289,7 @@ elsemessage = () => {
   mech10 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Advanced Materials");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1193,7 +2301,7 @@ elsemessage = () => {
   mech11 = () => {
     const message1=this.createClientMessage("Mechanical Engineering w/s Automative Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1205,7 +2313,7 @@ elsemessage = () => {
   mech12 = () => {
     const message1=this.createClientMessage("Mechatronics Engineer");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1219,7 +2327,7 @@ elsemessage = () => {
   mech13 = () => {
     const message1=this.createClientMessage("Mechatronics Engineering with specialisation in Robotics");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1245,7 +2353,7 @@ elsemessage = () => {
   chem1 = () => {
     const message1=this.createClientMessage("Nanotechnology");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-30 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-30\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1268,7 +2376,7 @@ elsemessage = () => {
   civil1 = () => {
     const message1=this.createClientMessage("Civil Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-180 | | | Ramapuram-120 | | Vadapalani-0 | | NCR-30 | | Amravati -30 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-180\n Ramapuram-120\n Vadapalani-0\n NCR-30\n Amravati-30\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1280,7 +2388,7 @@ elsemessage = () => {
   civil2 = () => {
     const message1=this.createClientMessage("Civil Engineering with Computer Application");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1292,7 +2400,7 @@ elsemessage = () => {
   civil3 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Structural Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1304,7 +2412,7 @@ elsemessage = () => {
   civil4 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Geotechnical Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1316,7 +2424,7 @@ elsemessage = () => {
   civil5 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Transportation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1328,7 +2436,7 @@ elsemessage = () => {
   civil6 = () => {
     const message1=this.createClientMessage("Civil Engineering w/s Water Resources and Environmental Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -GREEN | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-GREEN\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1354,7 +2462,7 @@ elsemessage = () => {
   eee1 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-240 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-60 | | Amravati -30 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-240\n Ramapuram-60\n Vadapalani-0\n NCR-60\n Amravati-30\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1366,7 +2474,7 @@ elsemessage = () => {
   eee2 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s E-Mobility");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1378,7 +2486,7 @@ elsemessage = () => {
   eee3 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s Smart Grid");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1390,7 +2498,7 @@ elsemessage = () => {
   eee4 = () => {
     const message1=this.createClientMessage("Electrical and Electronics Engineering w/s Energy Efficient Systems");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -10 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-10\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1402,7 +2510,7 @@ elsemessage = () => {
   eee5 = () => {
     const message1=this.createClientMessage("Electrical and Computer Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1414,7 +2522,7 @@ elsemessage = () => {
   eee6 = () => {
     const message1=this.createClientMessage("Electronics and Communication Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-660 | | | Ramapuram-240 | | Vadapalani-60 | | NCR-120 | | Amravati -120 | | Haryana-60 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-660\n Ramapuram-240\n Vadapalani-60\n NCR-120\n Amravati-120\n Haryana-60\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1426,7 +2534,7 @@ elsemessage = () => {
   eee7 = () => {
     const message1=this.createClientMessage("Electronics and Computer Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-120 | | | Ramapuram-60 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-120\n Ramapuram-60\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1438,7 +2546,7 @@ elsemessage = () => {
   eee8 = () => {
     const message1=this.createClientMessage("ECE W/S in Cyber Physical Systems");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 Amaravati-0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amaravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1450,7 +2558,7 @@ elsemessage = () => {
   eee9 = () => {
     const message1=this.createClientMessage("ECE W/S Data Science");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-60 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-60\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1462,7 +2570,7 @@ elsemessage = () => {
   eee10 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s VLSI & Embedded Systems");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1474,7 +2582,7 @@ elsemessage = () => {
   eee11 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s Advanced Communication Systems");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1486,7 +2594,7 @@ elsemessage = () => {
   eee12 = () => {
     const message1=this.createClientMessage("Electrical and Communication Engineering w/s Signal/Image Processing using AI");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-0 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati -40 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-0\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-40\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1498,7 +2606,7 @@ elsemessage = () => {
   eee13 = () => {
     const message1=this.createClientMessage("Electrical and Instrumentation Engineering");
     const message = this.createChatBotMessage(
-      "Available Seats : . . . Kattankulathur-60 | | | Ramapuram-0 | | Vadapalani-0 | | NCR-0 | | Amravati - 0 | | Haryana-0 | | Sikkim-0"
+      "Available Seats:\n Kattankulathur-60\n Ramapuram-0\n Vadapalani-0\n NCR-0\n Amravati-0\n Haryana-0\n Sikkim-0"
     );
     const message2 = this.createChatBotMessage("Do you have more queries?", {
       widget: "queries",
@@ -1572,7 +2680,7 @@ elsemessage = () => {
       
     );
     const message2 = this.createChatBotMessage(
-      "SRM IST is a nodal centre for all the 3 services of Indian Armed Forces      Super Dream companies (Rs.10 L Pa + salary packages) include Google, Microsoft, Aruba Networks among others   Dream companies (Rs.5 L Pa + salary packages) include  Deloitte, Capgemini among others",
+      "SRM IST is a nodal centre for all the 3 services of Indian Armed Forces   ||   Super Dream companies (Rs.10 L Pa + salary packages) include Google, Microsoft, Aruba Networks among others  || Dream companies (Rs.5 L Pa + salary packages) include  Deloitte, Capgemini among others",
       {
         widget: "placement_mile",
       }

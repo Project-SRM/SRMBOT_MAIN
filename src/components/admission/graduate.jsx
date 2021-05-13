@@ -9,7 +9,7 @@ const graduate = (props) => {
       handler:props.actionProvider.handleprograms,
       id: 1,
     },
-    { text: "Post Graduate", handler:props.actionProvider.postgrad, id: 2 },
+    { text: "Post Graduate", handler:props.actionProvider.handleprograms_post, id: 2 },
     
   ];
 

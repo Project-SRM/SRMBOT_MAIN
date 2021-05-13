@@ -79,7 +79,7 @@ const cse = (props) => {
       id: 15,
     },
     {
-      text: "CSE W/S in Cloud and Mobile Based Applications# (in association with IBM)",
+      text: "CSE W/S in Cloud and Mobile Based Applications (in association with IBM)",
       handler:props.actionProvider.comp16,
       id: 16,
     },

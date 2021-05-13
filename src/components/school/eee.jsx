@@ -5,67 +5,67 @@ import React from "react";
 const eee = (props) => {
   const eee = [
     {
-      text: "Electrical and Electronics Engineering",
+      text: "1.Electrical and Electronics Engineering",
       handler:props.actionProvider.eee1,
       id: 1,
     },
     {
-      text: "Electrical and Electronics Engineering w/s E-Mobility",
+      text: "2.Electrical and Electronics Engineering w/s E-Mobility",
       handler:props.actionProvider.eee2,
       id: 2,
     },
     {
-      text: "Electrical and Electronics Engineering w/s Smart Grid",
+      text: "3.Electrical and Electronics Engineering w/s Smart Grid",
       handler:props.actionProvider.eee3,
       id: 3,
     },
     {
-      text: "Electrical and Electronics Engineering w/s Energy Efficient Systems",
+      text: "4.Electrical and Electronics Engineering w/s Energy Efficient Systems",
       handler:props.actionProvider.eee4,
       id: 4,
     },
     {
-      text: "Electrical and Computer Engineering",
+      text: "5.Electrical and Computer Engineering",
       handler:props.actionProvider.eee5,
       id: 5,
     },
     {
-      text: "Electronics and Communication Engineering",
+      text: "6.Electronics and Communication Engineering",
       handler:props.actionProvider.eee6,
       id: 6,
     },
     {
-      text: "Electronics and Computer Engineering",
+      text: "7.Electronics and Computer Engineering",
       handler:props.actionProvider.eee7,
       id: 7,
     },
     {
-      text: "ECE W/S in Cyber Physical Systems",
+      text: "8.ECE W/S in Cyber Physical Systems",
       handler:props.actionProvider.eee8,
       id: 8,
     },
     {
-      text: "ECE W/S in Data Science",
+      text: "9.ECE W/S in Data Science",
       handler:props.actionProvider.eee9,
       id: 9,
     },
     {
-      text: "Electronics and Communication Engineering w/s VLSI & Embedded Systems",
+      text: "10.Electronics and Communication Engineering w/s VLSI & Embedded Systems",
       handler:props.actionProvider.eee10,
       id: 10,
     },
     {
-      text: "Electronics and Communication Engineering w/s Advanced Communication Systems",
+      text: "11.Electronics and Communication Engineering w/s Advanced Communication Systems",
       handler:props.actionProvider.eee11,
       id: 11,
     },
     {
-      text: "Electronics and Communication Engineering w/s Signal/Image Processing using AI",
+      text: "12.Electronics and Communication Engineering w/s Signal/Image Processing using AI",
       handler:props.actionProvider.eee12,
       id: 12,
     },
     {
-      text: "Electronics and Instrumentation Engineering",
+      text: "13.Electronics and Instrumentation Engineering",
       handler:props.actionProvider.eee13,
       id: 13,
     },

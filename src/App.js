@@ -21,7 +21,7 @@ import './App.css';
 //   );
 // }
 function App() {
-  //const [showBot, toggleBot] = useState(false);
+  const [showBot, toggleBot] = useState(false);
   
   // const saveMessages = (messages) => {
   //   localStorage.setItem("chat_messages", JSON.stringify(messages));
@@ -31,21 +31,24 @@ function App() {
   //   const messages = JSON.parse(localStorage.getItem("chat_messages"));
   //   return messages;
   // };
+  
 
   return (
     <div className="App">
-        {/* {showBot && */}
+        {showBot &&
          
           <Chatbot
             config={config}
             actionProvider={ActionProvider}
-           // messageHistory={loadMessages()}
+           //messageHistory={loadMessages()}
             messageParser={MessageParser}
             //saveMessages={saveMessages}
           />
         
-        {/* } */}
-        {/* <button onClick={() => toggleBot((prev) => !prev)} class="toggle-button">SRMBOT</button>  */}
+        }
+         <button onClick={() => toggleBot((prev) => !prev)} class="toggle-button" >Chat With Us!</button>  
+         
+
     </div>
   );
 }

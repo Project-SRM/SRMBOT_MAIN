@@ -5,7 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: fixed; 
+  bottom: 40px;
+  right: 110px; 
+  
 }
 .react-chatbot-kit-chat-container {
   position: relative;
@@ -290,3 +293,20 @@ position: centre;
 /* .intro-button :hover{
   background-color: rgb(189, 189, 184)!important;
 } */
+.toggle-button {
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #063a7e;
+  border: none;
+  position: fixed;
+  bottom: 30px;
+  z-index: 9999;
+  right: 60px;
+  cursor: pointer;
+  
+  
+}
+
+
