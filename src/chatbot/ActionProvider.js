@@ -493,8 +493,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses_post1_2 = () => {
-    const message1 = this.createClientMessage("Other Courses Offered ");
-    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
     {
       widget: "Med_Courses_post1_2",
     }
@@ -504,8 +504,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses_post1_3 = () => {
-    const message1 = this.createClientMessage("Other Courses Offered ");
-    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
     {
       widget: "Med_Courses_post1_3",
     }
@@ -514,6 +514,342 @@ this.addMessageToState(message1);
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
+   
+  
+  /////____Non_Clinical_Courses____///
+  med_courses_post1_1_1 = () => {
+    const message1 = this.createClientMessage("Anatomy");
+    const message = this.createChatBotMessage("Within Anatomy :"
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_2 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_3 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_4 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_5 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+   
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_6 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_1_7 = () => {
+    const message1 = this.createClientMessage("Non Clinical Courses");
+    const message = this.createChatBotMessage("Within Non Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
+  /////____Non_Clinical_Courses____///
+
+  /////____Clinical_Courses____///
+  med_courses_post1_2_1 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+   
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_2 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_3 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_4 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+   
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_5 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_6 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_7 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_8 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_9 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_10 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+   
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_11 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_2_12 = () => {
+    const message1 = this.createClientMessage("Clinical Courses");
+    const message = this.createChatBotMessage("Within Clinical Courses :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  /////____Clinical_Courses____///
+
+  ////__Super_Speciality___////
+  med_courses_post1_3_1 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+   
+  med_courses_post1_3_2 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+   
+  med_courses_post1_3_3 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+   
+  med_courses_post1_3_4 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_3_5 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_3_6 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+   
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_3_7 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post1_3_8 = () => {
+    const message1 = this.createClientMessage("Super Speciality");
+    const message = this.createChatBotMessage("Within Super Speciality :",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+   
+  ////__Super_Speciality___////
+
+  med_courses_post2_1 = () => {
+    const message1 = this.createClientMessage("MDS Conservative Dentistry and Endodontics");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_2 = () => {
+    const message1 = this.createClientMessage("MDS Oral and Maxillofacial Surgery ");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_3 = () => {
+    const message1 = this.createClientMessage("MDS Orthodontics & Dento Facial Orthopaedics");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_4 = () => {
+    const message1 = this.createClientMessage("MDS Periodontology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 8L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_5 = () => {
+    const message1 = this.createClientMessage("MDS Pediatric and Preventive Dentistry");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 10L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_6 = () => {
+    const message1 = this.createClientMessage("MDS Prosthodontics and Crown & Bridge");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 8L  |  Duration :-3yrs "
+    );
+    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post2_7 = () => {
+    const message1 = this.createClientMessage("Oral and Maxillofacial Pathology ");
+    const message = this.createChatBotMessage("Within Oral and Maxillofacial Pathology ",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post2_8 = () => {
+    const message1 = this.createClientMessage("Public Health Dentistry");
+    const message = this.createChatBotMessage("Within Public Health Dentistry",
+    
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+
 
   ////////////______MED_COURSES_POST______/////////
 
