@@ -2,32 +2,32 @@ import React from "react";
 
 // import "./AdmissionIndia.css";
 
-const med_courses_post = (props) => {
-  const med_courses_post = [
+const health_sciences = (props) => {
+  const health_sciences = [
     {
-      text: "SRM Medical College Hospital and Research Centre ",
-      handler: props.actionProvider.med_courses_post1,
+      text: "Nursing",
+      handler: props.actionProvider.health_sciences1,
       id: 1,
     },
     {
-      text: "SRM Kattankulathur Dental College and Hospital",
-      handler: props.actionProvider.med_courses_post2,
+      text: "Physiotherapy",
+      handler: props.actionProvider.health_sciences2,
       id: 2,
     },
     {
-      text: "SRM Ramapuram Dental College ",
-      handler: props.actionProvider.med_courses_post3,
+      text: "Occupational Therapy",
+      handler: props.actionProvider.health_sciences3,
       id: 3,
     },
     {
-      text: "Health Sciences ",
-      handler: props.actionProvider.med_courses_post4,
+      text: "Pharmacy",
+      handler: props.actionProvider.health_sciences4,
       id: 4,
     },
     
     {
-      text: "Other courses Offered ",
-      handler: props.actionProvider.med_courses_post5,
+      text: "Public Health",
+      handler: props.actionProvider.health_sciences5,
       id: 5,
     },
     
@@ -35,7 +35,7 @@ const med_courses_post = (props) => {
     
   ];
 
-  const buttonsMarkup = med_courses_post.map((admin) => (
+  const buttonsMarkup = health_sciences.map((admin) => (
     <button key={admin.id} onClick={admin.handler} className="option-button">
       {admin.text}
     </button>
@@ -44,4 +44,4 @@ const med_courses_post = (props) => {
   return <div className="options-container">{buttonsMarkup}</div>;
 };
 
-export default med_courses_post;
+export default health_sciences;

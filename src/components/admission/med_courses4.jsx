@@ -5,9 +5,30 @@ import React from "react";
 const med_courses4 = (props) => {
   const med_courses4 = [
     {
-      text: "SRM Medical College Hospital and Research Centre ",
-      handler: props.actionProvider.medical_courses4_1,
+      text: "Nursing",
+      handler: props.actionProvider.med_courses4_1,
       id: 1,
+    },
+    {
+      text: "Physiotherapy",
+      handler: props.actionProvider.med_courses4_2,
+      id: 2,
+    },
+    {
+      text: "Occupational Therapy",
+      handler: props.actionProvider.med_courses4_3,
+      id: 3,
+    },
+    {
+      text: "Pharmacy",
+      handler: props.actionProvider.med_courses4_4,
+      id: 4,
+    },
+    
+    {
+      text: "Public Health",
+      handler: props.actionProvider.med_courses4_5,
+      id: 5,
     },
     
     

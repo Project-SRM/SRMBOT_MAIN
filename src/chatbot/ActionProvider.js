@@ -519,254 +519,286 @@ this.addMessageToState(message1);
   /////____Non_Clinical_Courses____///
   med_courses_post1_1_1 = () => {
     const message1 = this.createClientMessage("Anatomy");
-    const message = this.createChatBotMessage("Within Anatomy :"
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_2 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Physiology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_3 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Biochemistry");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 02 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_4 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Pharmacology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_5 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-   
+    const message1 = this.createClientMessage("Pathology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_6 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Microbiology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 03 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_1_7 = () => {
-    const message1 = this.createClientMessage("Non Clinical Courses");
-    const message = this.createChatBotMessage("Within Non Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Community Medicine");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
 
   /////____Non_Clinical_Courses____///
 
   /////____Clinical_Courses____///
   med_courses_post1_2_1 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-   
+    const message1 = this.createClientMessage("General Medicine");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-14 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_2 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Paediatrics");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_3 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Psychiatry");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_4 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-   
+    const message1 = this.createClientMessage("Dermatology, Venerology and Leprosy");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_5 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Respiratory Medicine");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_6 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Radio Diagnosis");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_7 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Anaesthesia");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-09 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_8 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Obstetrics & Gynaecology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_9 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("General Surgery");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-11 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_10 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-   
+    const message1 = this.createClientMessage("Orthopaedics");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_11 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Ophthalmology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_2_12 = () => {
-    const message1 = this.createClientMessage("Clinical Courses");
-    const message = this.createChatBotMessage("Within Clinical Courses :",
-    
+    const message1 = this.createClientMessage("Otorhinolaryngology (ENT)");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   /////____Clinical_Courses____///
 
   ////__Super_Speciality___////
   med_courses_post1_3_1 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
+    const message1 = this.createClientMessage("Cardiology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
    
   med_courses_post1_3_2 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Nephrology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-02 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
+   
    
   med_courses_post1_3_3 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Neurology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
+   
    
   med_courses_post1_3_4 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Cardio Vascular & Thoracic Surgery");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / DNB Surgery");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
+   
   med_courses_post1_3_5 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Neurosurgery");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_3_6 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-   
+    const message1 = this.createClientMessage("Plastic & Reconstructive Surgery");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_3_7 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Paediatric Surgery");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / DNB Surgery");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
   med_courses_post1_3_8 = () => {
-    const message1 = this.createClientMessage("Super Speciality");
-    const message = this.createChatBotMessage("Within Super Speciality :",
-    
+    const message1 = this.createClientMessage("Urology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
     );
+    const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / MD (or) MS Obstetrics and Gynaecology");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(message2);
   };
    
   ////__Super_Speciality___////
@@ -775,7 +807,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Conservative Dentistry and Endodontics");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -785,7 +817,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Oral and Maxillofacial Surgery ");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -795,7 +827,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Orthodontics & Dento Facial Orthopaedics");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 12L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -805,7 +837,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Periodontology");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 8L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -815,7 +847,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Pediatric and Preventive Dentistry");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 10L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -825,7 +857,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("MDS Prosthodontics and Crown & Bridge");
     const message = this.createChatBotMessage(" Seats Available (in KTR) :- 3 | Fees/year :- 8L  |  Duration :-3yrs "
     );
-    const message2 = this.createChatBotMessage("Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
+    const message2 = this.createChatBotMessage("Eligibility:- Pass in B.D.S. or Its equivalent degree recognized by Dental Council of India (Completion of internship on or before 31.03.2020). Eligible NEET PG Score as prescribed by DGHS.");
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
@@ -901,7 +933,7 @@ this.addMessageToState(message1);
     const message1 = this.createClientMessage("Health Sciences");
     const message = this.createChatBotMessage("Within Health Sciences :",
     {
-      widget: "Health_Sciences",
+      widget: "Med_Courses4",
     }
     );
    
@@ -943,55 +975,54 @@ this.addMessageToState(message1);
 
   ////////////_____HEALTH_SCIENCES_______///////////
   
-  health_sciences1 = () => {
-    const message1 = this.createClientMessage("SRM Medical College Hospital and Research Centre ");
-    const message = this.createChatBotMessage("Within SRM Medical College Hospital and Research Centre :",
+  med_courses4_1 = () => {
+    const message1 = this.createClientMessage("Nursing");
+    const message = this.createChatBotMessage("Within Nursing :",
     {
-      widget: "Health_Sciences1",
-    }
-    );
+      widget: "Med_Courses4_1"
+    });
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
-  health_sciences2 = () => {
+  med_courses4_2 = () => {
     const message1 = this.createClientMessage("SRM Kattankulathur Dental College and Hospital");
     const message = this.createChatBotMessage("Within SRM Kattankulathur Dental College and Hospital",
     {
-      widget: "Health_Sciences2",
+      widget: "Med_Courses4_2",
     }
     );
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
-  health_sciences3 = () => {
+  med_courses4_3 = () => {
     const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
     const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
     {
-      widget: "Health_Sciences3",
+      widget: "Med_Courses4_3",
     }
     );
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
-  health_sciences4 = () => {
+  med_courses4_4 = () => {
     const message1 = this.createClientMessage("Health Sciences");
     const message = this.createChatBotMessage("Within Health Sciences :",
     {
-      widget: "Health_Sciences4",
+      widget: "Med_Courses4_4",
     }
     );
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
-  health_sciences5 = () => {
+  med_courses4_5 = () => {
     const message1 = this.createClientMessage("Other Courses Offered ");
     const message = this.createChatBotMessage("Within Other Courses Offered :",
     {
-      widget: "Health_Sciences5",
+      widget: "Med_Courses4_5",
     }
     );
    

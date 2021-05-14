@@ -53,12 +53,11 @@ import Med_Courses2 from "../components/admission/med_courses2";
 import Med_Courses3 from "../components/admission/med_courses3";
 import Med_Courses4 from "../components/admission/med_courses4";
 import Med_Courses5 from "../components/admission/med_courses5";
-import Health_Sciences from "../components/admission/health_sciences";
-import Health_Sciences1 from "../components/admission/health_sciences1";
-import Health_Sciences2 from "../components/admission/health_sciences2";
-import Health_Sciences3 from "../components/admission/health_sciences3";
-import Health_Sciences4 from "../components/admission/health_sciences4";
-import Health_Sciences5 from "../components/admission/health_sciences5";
+import Med_Courses4_1 from "../components/admission/med_courses4_1";
+import Med_Courses4_2 from "../components/admission/med_courses4_2";
+import Med_Courses4_3 from "../components/admission/med_courses4_3";
+import Med_Courses4_4 from "../components/admission/med_courses4_4";
+import Med_Courses4_5 from "../components/admission/med_courses4_5";
 import Med_Courses_post1 from "../components/admission/med_courses_post1";
 import Med_Courses_post2 from "../components/admission/med_courses_post2";
 import Med_Courses_post3 from "../components/admission/med_courses_post3";
@@ -390,33 +389,28 @@ const config = {
      
     },
     {
-      widgetName: "Health_Sciences",
-      widgetFunc: (props) => <Health_Sciences {...props} />,
+      widgetName: "Med_Courses4_1",
+      widgetFunc: (props) => <Med_Courses4_1 {...props} />,
      
     },
     {
-      widgetName: "Health_Sciences1",
-      widgetFunc: (props) => <Health_Sciences1 {...props} />,
+      widgetName: "Med_Courses4_2",
+      widgetFunc: (props) => <Med_Courses4_2 {...props} />,
      
     },
     {
-      widgetName: "Health_Sciences2",
-      widgetFunc: (props) => <Health_Sciences2 {...props} />,
+      widgetName: "Med_Courses4_3",
+      widgetFunc: (props) => <Med_Courses4_3 {...props} />,
      
     },
     {
-      widgetName: "Health_Sciences3",
-      widgetFunc: (props) => <Health_Sciences3 {...props} />,
+      widgetName: "Med_Courses4_4",
+      widgetFunc: (props) => <Med_Courses4_4 {...props} />,
      
     },
     {
-      widgetName: "Health_Sciences4",
-      widgetFunc: (props) => <Health_Sciences4 {...props} />,
-     
-    },
-    {
-      widgetName: "Health_Sciences5",
-      widgetFunc: (props) => <Health_Sciences5 {...props} />,
+      widgetName: "Med_Courses4_5",
+      widgetFunc: (props) => <Med_Courses4_5 {...props} />,
      
     },
     {
@@ -452,7 +446,6 @@ const config = {
       widgetName: "Med_Courses_post1_3",
       widgetFunc: (props) => <Med_Courses_post1_3 {...props} />,
     },
-    
     
     
     
