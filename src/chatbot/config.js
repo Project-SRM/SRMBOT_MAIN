@@ -104,11 +104,14 @@ const config = {
     //   }
     // ),
     
-  createChatBotMessage(`Fill the below form to proceed`,
+  createChatBotMessage(`Fill the below form to contact us`,
   { widget :"form"}
   ),
-  createChatBotMessage(`Hi there ! How can I help you ?`,
-  { widget :"overview"}
+  // createChatBotMessage(`Hi there ! How can I help you ?`,
+  // { widget :"overview"}
+  // )
+  createChatBotMessage(`Do you have more queries?`,
+  { widget :"queries"}
   )
 
 ],
