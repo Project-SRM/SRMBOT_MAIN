@@ -2,40 +2,15 @@ import React from "react";
 
 // import "./AdmissionIndia.css";
 
-const health_sciences = (props) => {
-  const health_sciences = [
-    {
-      text: "Nursing",
-      handler: props.actionProvider.health_sciences1,
-      id: 1,
-    },
-    {
-      text: "Physiotherapy",
-      handler: props.actionProvider.health_sciences2,
-      id: 2,
-    },
-    {
-      text: "Occupational Therapy",
-      handler: props.actionProvider.health_sciences3,
-      id: 3,
-    },
-    {
-      text: "Pharmacy",
-      handler: props.actionProvider.health_sciences4,
-      id: 4,
-    },
+const med_sciences4_4 = (props) => {
+  const med_sciences4_4 = [
     
-    {
-      text: "Public Health",
-      handler: props.actionProvider.health_sciences5,
-      id: 5,
-    },
     
     
     
   ];
 
-  const buttonsMarkup = health_sciences.map((admin) => (
+  const buttonsMarkup = med_sciences4_4.map((admin) => (
     <button key={admin.id} onClick={admin.handler} className="option-button">
       {admin.text}
     </button>
@@ -44,4 +19,4 @@ const health_sciences = (props) => {
   return <div className="options-container">{buttonsMarkup}</div>;
 };
 
-export default health_sciences;
+export default med_sciences4_4;

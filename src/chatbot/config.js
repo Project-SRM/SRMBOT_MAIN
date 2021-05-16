@@ -97,18 +97,12 @@ const config = {
     //   }
     // ),
     
-  createChatBotMessage(`Fill the below form to contact us`,
+  createChatBotMessage(`Fill the below form to proceed`,
   { widget :"form"}
   ),
-  // createChatBotMessage(`Hi there ! How can I help you ?`,
-  // { widget :"overview"}
-  // )
-  createChatBotMessage(`Do you have more queries?`,
-  { widget :"queries"}
+  createChatBotMessage(`Hi there ! How can I help you ?`,
+  { widget :"overview"}
   )
-  
-
-
 
 ],
   widgets :

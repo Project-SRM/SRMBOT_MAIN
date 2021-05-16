@@ -450,14 +450,13 @@ this.addMessageToState(message1);
   };
   med_courses_post3 = () => {
     const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
-    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
-    {
-      widget: "Med_Courses_post3",
-    }
+    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :");
+    const a=this.createChatBotMessage(<a href="https://srmrmp.edu.in/"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://srmrmp.edu.in/</p></a>
     );
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(a);
   };
   med_courses_post4 = () => {
     const message1 = this.createClientMessage("Health Sciences");
@@ -519,7 +518,7 @@ this.addMessageToState(message1);
   /////____Non_Clinical_Courses____///
   med_courses_post1_1_1 = () => {
     const message1 = this.createClientMessage("Anatomy");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 | Fees- 3L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -529,7 +528,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_2 = () => {
     const message1 = this.createClientMessage("Physiology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 | Fees- 3L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -539,7 +538,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_3 = () => {
     const message1 = this.createClientMessage("Biochemistry");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 02 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 02 | Fees- 3L |   Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -549,7 +548,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_4 = () => {
     const message1 = this.createClientMessage("Pharmacology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 | Fees- 3L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -559,7 +558,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_5 = () => {
     const message1 = this.createClientMessage("Pathology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 | Fees- 10L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -569,7 +568,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_6 = () => {
     const message1 = this.createClientMessage("Microbiology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 03 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 03 | Fees- 3L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -579,7 +578,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_1_7 = () => {
     const message1 = this.createClientMessage("Community Medicine");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- 04 | Fees- 7L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -593,7 +592,7 @@ this.addMessageToState(message1);
   /////____Clinical_Courses____///
   med_courses_post1_2_1 = () => {
     const message1 = this.createClientMessage("General Medicine");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-14 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-14 , NRI-01 | Fees- 40L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -603,7 +602,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_2 = () => {
     const message1 = this.createClientMessage("Paediatrics");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-01 | Fees- 40L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -613,7 +612,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_3 = () => {
     const message1 = this.createClientMessage("Psychiatry");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 | Fees- 30L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -623,7 +622,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_4 = () => {
     const message1 = this.createClientMessage("Dermatology, Venerology and Leprosy");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-01 | Fees- 50L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -633,7 +632,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_5 = () => {
     const message1 = this.createClientMessage("Respiratory Medicine");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 | Fees- 30L |  Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -643,7 +642,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_6 = () => {
     const message1 = this.createClientMessage("Radio Diagnosis");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 | Fees- 50L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -652,8 +651,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message2);
   };
   med_courses_post1_2_7 = () => {
-    const message1 = this.createClientMessage("Anaesthesia");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-09 , NRI-00 |  Duration :-3yrs "
+    const message1 = this.createClientMessage("Anaesthesiology");
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-09 , NRI-00 | Fees- 30L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -663,7 +662,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_8 = () => {
     const message1 = this.createClientMessage("Obstetrics & Gynaecology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 | Fees- 50L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -673,7 +672,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_9 = () => {
     const message1 = this.createClientMessage("General Surgery");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-11 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-11 , NRI-01 | Fees- 35L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -683,7 +682,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_10 = () => {
     const message1 = this.createClientMessage("Orthopaedics");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-01 | Fees- 50L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -693,7 +692,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_11 = () => {
     const message1 = this.createClientMessage("Ophthalmology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 | Fees- 30L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -703,7 +702,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_2_12 = () => {
     const message1 = this.createClientMessage("Otorhinolaryngology (ENT)");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-04 , NRI-00 | Fees- 30L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- Pass in MBBS or its equivalent degree recognized by Medical Council of India . Eligible NEET PG Score as prescribed by MCI. ");
    
@@ -716,7 +715,7 @@ this.addMessageToState(message1);
   ////__Super_Speciality___////
   med_courses_post1_3_1 = () => {
     const message1 = this.createClientMessage("Cardiology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-03 , NRI-00 | Fees- 18L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
@@ -727,7 +726,7 @@ this.addMessageToState(message1);
    
   med_courses_post1_3_2 = () => {
     const message1 = this.createClientMessage("Nephrology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-02 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-02 , NRI-00 | Fees- 18L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
@@ -739,7 +738,7 @@ this.addMessageToState(message1);
    
   med_courses_post1_3_3 = () => {
     const message1 = this.createClientMessage("Neurology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 18L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MD - General Medicine / MD - Paediatrics ");
    
@@ -751,7 +750,7 @@ this.addMessageToState(message1);
    
   med_courses_post1_3_4 = () => {
     const message1 = this.createClientMessage("Cardio Vascular & Thoracic Surgery");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 10L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / DNB Surgery");
    
@@ -762,7 +761,7 @@ this.addMessageToState(message1);
    
   med_courses_post1_3_5 = () => {
     const message1 = this.createClientMessage("Neurosurgery");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 10L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery");
    
@@ -772,7 +771,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_3_6 = () => {
     const message1 = this.createClientMessage("Plastic & Reconstructive Surgery");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 10L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery");
    
@@ -782,7 +781,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_3_7 = () => {
     const message1 = this.createClientMessage("Paediatric Surgery");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 10L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / DNB Surgery");
    
@@ -792,7 +791,7 @@ this.addMessageToState(message1);
   };
   med_courses_post1_3_8 = () => {
     const message1 = this.createClientMessage("Urology");
-    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 |  Duration :-3yrs "
+    const message = this.createChatBotMessage(" Seats Available (in KTR) :- Domestic-01 , NRI-00 | Fees- 22L | Duration :-3yrs "
     );
     const message2 = this.createChatBotMessage("Eligibility:- MS - General Surgery / MD (or) MS Obstetrics and Gynaecology");
    
@@ -920,14 +919,13 @@ this.addMessageToState(message1);
   };
   med_courses3 = () => {
     const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
-    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
-    {
-      widget: "Med_Courses3",
-    }
+    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :");
+    const a=this.createChatBotMessage(<a href="https://srmrmp.edu.in/"  target="_blank" class="url-link"><p class="url-header"> For detailed info please visit https://srmrmp.edu.in/</p></a>
     );
    
     this.addMessageToState(message1);
     this.addMessageToState(message);
+    this.addMessageToState(a);
   };
   med_courses4 = () => {
     const message1 = this.createClientMessage("Health Sciences");
@@ -986,8 +984,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses4_2 = () => {
-    const message1 = this.createClientMessage("SRM Kattankulathur Dental College and Hospital");
-    const message = this.createChatBotMessage("Within SRM Kattankulathur Dental College and Hospital",
+    const message1 = this.createClientMessage("Physiotherapy");
+    const message = this.createChatBotMessage("Within Physiotherapy :",
     {
       widget: "Med_Courses4_2",
     }
@@ -997,8 +995,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses4_3 = () => {
-    const message1 = this.createClientMessage("SRM Ramapuram Dental College ");
-    const message = this.createChatBotMessage("Within SRM Ramapuram Dental College :",
+    const message1 = this.createClientMessage("Occupational Therapy");
+    const message = this.createChatBotMessage("Within Occupational Therapy :",
     {
       widget: "Med_Courses4_3",
     }
@@ -1008,8 +1006,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses4_4 = () => {
-    const message1 = this.createClientMessage("Health Sciences");
-    const message = this.createChatBotMessage("Within Health Sciences :",
+    const message1 = this.createClientMessage("Pharmacy");
+    const message = this.createChatBotMessage("Within pharmacy :",
     {
       widget: "Med_Courses4_4",
     }
@@ -1019,8 +1017,8 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   med_courses4_5 = () => {
-    const message1 = this.createClientMessage("Other Courses Offered ");
-    const message = this.createChatBotMessage("Within Other Courses Offered :",
+    const message1 = this.createClientMessage("Public Health");
+    const message = this.createChatBotMessage("Within Public Health :",
     {
       widget: "Med_Courses4_5",
     }
@@ -1030,8 +1028,114 @@ this.addMessageToState(message1);
     this.addMessageToState(message);
   };
   ////////////_____HEALTH_SCIENCES_______///////////
+ 
+   ///////_______Nursing_____////////
+   
+  med_courses4_1_1 = () => {
+    const message1 = this.createClientMessage("Bachelor of Science (B.Sc.)");
+    const message = this.createChatBotMessage(" KTR :- Duration :- 4yrs | Fees/year :- 75,000 "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- +2 or equivalent passed with 45% marks in Physics, Chemistry and Biology or Botany, Zoology and English ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses4_1_2 = () => {
+    const message1 = this.createClientMessage("Post Basic Bachelor of Science (P.B. B.Sc)");
+    const message = this.createChatBotMessage(" KTR :- Duration :- 2yrs | Fees/year :- 50,000 "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1.Diploma in Nursing 2.Should be a Registered Nurse");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses4_1_3 = () => {
+    const message1 = this.createClientMessage("Diploma in General Nursing and Midwifery");
+    const message = this.createChatBotMessage("KTR :- Fees/year :- 30,000  |  Duration :- 4.5yrs"
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1. Minimum and Maximum age for admission will be 17 and 35 years.There is no age bar for ANM / LHV. 2. Minimum education : 10 +2 class passed preferably Science (PCB) & English with  aggregate of 40%Marks. 3.10 +2 in Arts (Mathematics, Biotechnology, Economics, Political Science, History,   Geography, Business Studies, Accountancy, Home Science, Sociology, Psychology, Philosophy) and English Core/English Elective or Health care Science - Vocational stream ONLY, passing out from recognized Board under AISSCE/CBSE/ICSE/SSCE/HSCE or other equivalent Board with 40 % marks. 4.10 +2 vocational ANM under CBSE Board or other equivalent board from the School and  recognized by Indian Nursing Council with 40 % marks. 5.Registered as ANM with State Nursing Registration Council. 6.Students qualified in 10 +2 Arts or Science examination or Health care Science -Vocational Stream ONLY conducted by National Institute of Open School with 40 % marks. ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  ///////_______Nursing_____////////
+  //////______Physiotherpy___/////////
+  med_courses4_2_1 = () => {
+    const message1 = this.createClientMessage("POs/PSOs/COs");
+    // const message = this.createChatBotMessage(" KTR :- Duration :- 2yrs "
+    // );
+    // const message2 = this.createChatBotMessage("Eligibility:- 1.Diploma in Nursing 2.Should be a Registered Nurse");
+   
+    this.addMessageToState(message1);
+    // this.addMessageToState(message);
+    // this.addMessageToState(message2);
+  };
+  med_courses4_2_2 = () => {
+    const message1 = this.createClientMessage("Bachelor of Physiotherapy");
+    // const message = this.createChatBotMessage(" KTR :- Duration :- 2yrs "
+    // );
+    // const message2 = this.createChatBotMessage("Eligibility:- 1.Diploma in Nursing 2.Should be a Registered Nurse");
+   
+    this.addMessageToState(message1);
+    // this.addMessageToState(message);
+    // this.addMessageToState(message2);
+  };
 
+  //////______Physiotherpy___/////////
 
+  med_courses4_1_3 = () => {
+    const message1 = this.createClientMessage("Bachelor of Occupational Therapy");
+    // const message = this.createChatBotMessage("KTR :- Fees/year :- 1.10 L  |  Duration :- 4.5yrs"
+    // );
+    // const message2 = this.createChatBotMessage("Eligibility:- 1. Minimum and Maximum age for admission will be 17 and 35 years.There is no age bar for ANM / LHV. 2. Minimum education : 10 +2 class passed preferably Science (PCB) & English with  aggregate of 40%Marks. 3.10 +2 in Arts (Mathematics, Biotechnology, Economics, Political Science, History,   Geography, Business Studies, Accountancy, Home Science, Sociology, Psychology, Philosophy) and English Core/English Elective or Health care Science - Vocational stream ONLY, passing out from recognized Board under AISSCE/CBSE/ICSE/SSCE/HSCE or other equivalent Board with 40 % marks. 4.10 +2 vocational ANM under CBSE Board or other equivalent board from the School and  recognized by Indian Nursing Council with 40 % marks. 5.Registered as ANM with State Nursing Registration Council. 6.Students qualified in 10 +2 Arts or Science examination or Health care Science -Vocational Stream ONLY conducted by National Institute of Open School with 40 % marks. ");
+   
+    this.addMessageToState(message1);
+    // this.addMessageToState(message);
+    // this.addMessageToState(message2);
+  };
+  med_courses4_1_3 = () => {
+    const message1 = this.createClientMessage("Pharmacy");
+    // const message = this.createChatBotMessage("KTR :- Fees/year :- 1.10 L  |  Duration :- 4.5yrs"
+    // );
+    // const message2 = this.createChatBotMessage("Eligibility:- 1. Minimum and Maximum age for admission will be 17 and 35 years.There is no age bar for ANM / LHV. 2. Minimum education : 10 +2 class passed preferably Science (PCB) & English with  aggregate of 40%Marks. 3.10 +2 in Arts (Mathematics, Biotechnology, Economics, Political Science, History,   Geography, Business Studies, Accountancy, Home Science, Sociology, Psychology, Philosophy) and English Core/English Elective or Health care Science - Vocational stream ONLY, passing out from recognized Board under AISSCE/CBSE/ICSE/SSCE/HSCE or other equivalent Board with 40 % marks. 4.10 +2 vocational ANM under CBSE Board or other equivalent board from the School and  recognized by Indian Nursing Council with 40 % marks. 5.Registered as ANM with State Nursing Registration Council. 6.Students qualified in 10 +2 Arts or Science examination or Health care Science -Vocational Stream ONLY conducted by National Institute of Open School with 40 % marks. ");
+   
+    this.addMessageToState(message1);
+    // this.addMessageToState(message);
+    // this.addMessageToState(message2);
+  };
+  med_courses4_5_1 = () => {
+    const message1 = this.createClientMessage("B.Sc. Public Health");
+    const message = this.createChatBotMessage("KTR :- Fees/year :- 60,000   |  Duration :- 3yrs"
+    );
+    const message2 = this.createChatBotMessage("Eligibility:-1. 10+2 pattern in groups such as Science, Commerce, Arts and Humanities in India/abroad. 2.Selection is based on academic merit and performance in the interview");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses5_1 = () => {
+    const message1 = this.createClientMessage("Optometry");
+    const message = this.createChatBotMessage("KTR :- Fees/year :- 1.25 L   |  Duration :- 3yrs & 1yr (internship) "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:-1. Candidates should have successfully completed HSC examinations of any recognized board / university of India or equivalent of 10+2 education in India or abroad with minimum of 60% marks. 2.The eligible subjects at the HSC or equivalent: In combination with Physics, Mathematics and Chemistry with either Biology or Computer Science");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses5_2 = () => {
+    const message1 = this.createClientMessage("Audiology And Speech Language Pathology");
+    const message = this.createChatBotMessage("KTR :- Fees/year :- 2.5 L | Seats Available- 20  |  Duration :- 3yrs & 1yr (internship) "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:-1. Successful completion of +2 Examinations with science subjects.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
   //////////////////______Law_Post______////////////
 
   law_courses_post = () => {
