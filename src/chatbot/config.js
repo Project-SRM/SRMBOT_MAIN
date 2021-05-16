@@ -66,6 +66,13 @@ import Med_Courses_post5 from "../components/admission/med_courses_post5";
 import Med_Courses_post1_1 from "../components/admission/med_courses_post1_1";
 import Med_Courses_post1_2 from "../components/admission/med_courses_post1_2";
 import Med_Courses_post1_3 from "../components/admission/med_courses_post1_3";
+import Med_Courses_post4_1 from "../components/admission/med_courses_post4_1";
+import Med_Courses_post4_2 from "../components/admission/med_courses_post4_2";
+import Med_Courses_post4_3 from "../components/admission/med_courses_post4_3";
+import Med_Courses_post4_5 from "../components/admission/med_courses_post4_5";
+import Med_Courses_post5_1 from "../components/admission/med_courses_post5_1";
+import Med_Courses_post5_2 from "../components/admission/med_courses_post5_2";
+
 
 const botName = "SRMBOT";
 const config = {
@@ -446,7 +453,30 @@ const config = {
       widgetName: "Med_Courses_post1_3",
       widgetFunc: (props) => <Med_Courses_post1_3 {...props} />,
     },
-    
+    {
+      widgetName: "Med_Courses_post4_1",
+      widgetFunc: (props) => <Med_Courses_post4_1 {...props} />,
+    },
+    {
+      widgetName: "Med_Courses_post4_2",
+      widgetFunc: (props) => <Med_Courses_post4_2 {...props} />,
+    },
+    {
+      widgetName: "Med_Courses_post4_3",
+      widgetFunc: (props) => <Med_Courses_post4_3 {...props} />,
+    },
+    {
+      widgetName: "Med_Courses_post4_5",
+      widgetFunc: (props) => <Med_Courses_post4_5 {...props} />,
+    },
+    {
+      widgetName: "Med_Courses_post5_1",
+      widgetFunc: (props) => <Med_Courses_post5_1 {...props} />,
+    },
+    {
+      widgetName: "Med_Courses_post5_2",
+      widgetFunc: (props) => <Med_Courses_post5_2 {...props} />,
+    },
     
     
   ]

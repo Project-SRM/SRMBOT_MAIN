@@ -480,6 +480,26 @@ this.addMessageToState(message1);
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
+  med_courses_post5_1 = () => {
+    const message1 = this.createClientMessage("Clinical Psychology");
+    const message = this.createChatBotMessage("Within Clinical Psychology :",
+    {
+      widget: "Med_Courses_post5_1",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);};
+    med_courses_post5_2 = () => {
+      const message1 = this.createClientMessage("Audiology and Speech Language Pathology");
+      const message = this.createChatBotMessage("Within Audiology and Speech Language Pathology :",
+      {
+        widget: "Med_Courses_post5_2",
+      }
+      );
+     
+      this.addMessageToState(message1);
+      this.addMessageToState(message);};
   med_courses_post1_1 = () => {
     const message1 = this.createClientMessage("Non Clinical Courses");
     const message = this.createChatBotMessage("Within Non Clinical Courses :",
@@ -513,8 +533,180 @@ this.addMessageToState(message1);
     this.addMessageToState(message1);
     this.addMessageToState(message);
   };
+   med_courses_post4_1 = () => {
+    const message1 = this.createClientMessage("Nursing");
+    const message = this.createChatBotMessage("Within Nursing:",
+    {
+      widget: "Med_Courses_post4_1",
+    }
+    );
    
-  
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post4_1_1 = () => {
+    const message1 = this.createClientMessage("Master of Science (M.Sc.)");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1.B.Sc. Nursing with one year Experience. 2.Post Basic B.Sc.(N) with one year Experience is required ");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_1_2 = () => {
+    const message1 = this.createClientMessage("Medical-Surgical");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:-1. Post Basic B.Sc.(N) with one year Experience is required");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_1_3 = () => {
+    const message1 = this.createClientMessage("Obstetrics & Gynaecology");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1. Post Basic B.Sc.(N) with one year Experience is required");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_1_4 = () => {
+    const message1 = this.createClientMessage("Community Health");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:-1. Post Basic B.Sc.(N) with one year Experience is required");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_1_5 = () => {
+    const message1 = this.createClientMessage("Psychiatric");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1. Post Basic B.Sc.(N) with one year Experience is required");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_1_6 = () => {
+    const message1 = this.createClientMessage("Paediatric");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- 1. Post Basic B.Sc.(N) with one year Experience is required");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+  };
+  med_courses_post4_2 = () => {
+    const message1 = this.createClientMessage("Physiotherapy");
+    const message = this.createChatBotMessage("Within Physiotherapy:",
+    {
+      widget: "Med_Courses_post4_2",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post4_3 = () => {
+    const message1 = this.createClientMessage("Occupational Therapy");
+    const message = this.createChatBotMessage("Within Occupational Therapy:",
+    {
+      widget: "Med_Courses_post4_3",
+    }
+    );
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+  };
+  med_courses_post4_3_1 = () => {
+    const message1 = this.createClientMessage("Master of Occupational Therapy");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- Candidates completed Bachelors in Occupational Therapy (B.O.T) including Six months of Internship.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);};
+    
+  med_courses_post4_5 = () => {
+      const message1 = this.createClientMessage("Public Health");
+      const message = this.createChatBotMessage("Within Public Health :",
+      {
+        widget: "Med_Courses_post4_5",
+      }
+      );
+     
+      this.addMessageToState(message1);
+      this.addMessageToState(message);
+    };
+    med_courses_post4_5_1 = () => {
+      const message1 = this.createClientMessage("Master of Public Health - MPH");
+      const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+      );
+      const message2 = this.createChatBotMessage("Eligibility:- Graduates who have a pass in MBBS, Ayush, Engineering, Pharmacy, Physiotherapy, Occupational Therapy, Dentistry, Nursing, Veterinary Sciences. Arts & Science graduates with a minimum of 55% aggregate are eligible to apply. ");
+     
+      this.addMessageToState(message1);
+      this.addMessageToState(message);
+      this.addMessageToState(message2);
+    };
+    med_courses_post4_5_2 = () => {
+      const message1 = this.createClientMessage("M.Sc. Biostatistics and Epidemiology");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4250 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- Graduates who have a pass in MBBS, Ayush, Engineering, Pharmacy, Physiotherapy, Occupational Therapy, Dentistry, Nursing, Veterinary Sciences. Arts & Science graduates with a minimum of 55% aggregate are eligible to apply.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);
+    };
+    med_courses_post4_5_3 = () => {
+      const message1 = this.createClientMessage("Master of Health Data Science");
+    const message = this.createChatBotMessage(" KTR :-  Fees- 4300 | Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- The applicants would have to go through a process of Selection Test for admission to the MSc Program. The Selection Test would include an Aptitude test/ Written essay and or an Interview. Admission to the MSc course would be based on candidates’ Selection Test score, the previous academic performance, relevant work experience and participation in extracurricular activities.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);};
+    med_courses_post5_1_1 = () => {
+      const message1 = this.createClientMessage("M. Phil");
+    const message = this.createChatBotMessage(" KTR :-  Duration :-2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- Minimum educational requirement for admission to this course will be M.A./M.Sc. degree in Psychology from a university recognized by the UGC with a minimum of 55% marks in aggregate, preferably with special paper in Clinical Psychology. For SC/ST/OBC category, minimum of 50% marks in aggregate is essential, as per GOI.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);};
+    
+    med_courses_post5_2_1 = () => {
+      const message1 = this.createClientMessage("M.Sc. Speech Language Pathology (M.Sc. SLP) ");
+    const message = this.createChatBotMessage("Seats Available in KTR :- 12 | Duration :- 2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- This is handled by the Director of Admissions, SRM Institute of Science and Technology.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);};
+    
+    med_courses_post5_2_2 = () => {
+      const message1 = this.createClientMessage("M.Sc. Audiology (M.Sc Aud)");
+    const message = this.createChatBotMessage("Seats Available in KTR :- 12 | Duration :- 2yrs "
+    );
+    const message2 = this.createChatBotMessage("Eligibility:- This is handled by the Director of Admissions, SRM Institute of Science and Technology.");
+   
+    this.addMessageToState(message1);
+    this.addMessageToState(message);
+    this.addMessageToState(message2);};
+    
+
   /////____Non_Clinical_Courses____///
   med_courses_post1_1_1 = () => {
     const message1 = this.createClientMessage("Anatomy");
@@ -1086,7 +1278,7 @@ this.addMessageToState(message1);
 
   //////______Physiotherpy___/////////
 
-  med_courses4_1_3 = () => {
+  med_courses4_3 = () => {
     const message1 = this.createClientMessage("Bachelor of Occupational Therapy");
     // const message = this.createChatBotMessage("KTR :- Fees/year :- 1.10 L  |  Duration :- 4.5yrs"
     // );
@@ -1096,7 +1288,7 @@ this.addMessageToState(message1);
     // this.addMessageToState(message);
     // this.addMessageToState(message2);
   };
-  med_courses4_1_3 = () => {
+  med_courses4_4 = () => {
     const message1 = this.createClientMessage("Pharmacy");
     // const message = this.createChatBotMessage("KTR :- Fees/year :- 1.10 L  |  Duration :- 4.5yrs"
     // );
